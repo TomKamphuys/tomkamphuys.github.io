@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<org.diylc.core.Project>
+  <fileVersion>
+    <major>3</major>
+    <minor>40</minor>
+    <build>0</build>
+  </fileVersion>
+  <title>JTM45</title>
+  <author>TomKamphuys</author>
+  <width>
+    <value>29.0</value>
+    <unit class="org.diylc.core.measures.SizeUnit">cm</unit>
+  </width>
+  <height>
+    <value>10.0</value>
+    <unit class="org.diylc.core.measures.SizeUnit">cm</unit>
+  </height>
+  <gridSpacing>
+    <value>9.5</value>
+    <unit class="org.diylc.core.measures.SizeUnit">mm</unit>
+  </gridSpacing>
+  <components>
+    <org.diylc.components.boards.EyeletBoard>
+      <name>Board1</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <java.awt.Point x="0.0" y="0.0"/>
+        <java.awt.Point x="10.275" y="2.835"/>
+      </controlPoints>
+      <firstPoint x="0.0" y="0.0"/>
+      <secondPoint x="10.275" y="2.835"/>
+      <boardColor>
+        <red>204</red>
+        <green>255</green>
+        <blue>204</blue>
+        <alpha>255</alpha>
+      </boardColor>
+      <borderColor>
+        <red>142</red>
+        <green>178</green>
+        <blue>142</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <coordinateColor>
+        <red>182</red>
+        <green>182</green>
+        <blue>182</blue>
+        <alpha>255</alpha>
+      </coordinateColor>
+      <drawCoordinates>true</drawCoordinates>
+      <spacing>
+        <value>9.5</value>
+        <unit class="org.diylc.core.measures.SizeUnit">mm</unit>
+      </spacing>
+      <eyeletColor>
+        <red>195</red>
+        <green>228</green>
+        <blue>237</blue>
+        <alpha>255</alpha>
+      </eyeletColor>
+    </org.diylc.components.boards.EyeletBoard>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet1</name>
+      <size>
+        <value>0.2</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </size>
+      <holeSize>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </holeSize>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <point x="0.37" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet2</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="1.495" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet3</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="0.745" y="1.495"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet4</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="0.37" y="2.24"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet5</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="2.615" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet6</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="1.87" y="1.12"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet7</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="1.87" y="1.495"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet8</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="0.745" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet9</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="1.12" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet10</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="1.495" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet11</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="1.87" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet12</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="2.24" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet13</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="2.615" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet14</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="2.99" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet15</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="3.365" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet16</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="3.74" y="2.24"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet17</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="4.11" y="2.24"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet18</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="4.48" y="2.61"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet19</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="4.86" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet20</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="5.235" y="2.24"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet21</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="5.605" y="2.61"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet22</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="5.98" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet23</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="6.73" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet24</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="7.105" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet25</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="7.85" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet26</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="8.225" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet27</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="8.6" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet28</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="8.975" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet29</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="9.72" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet30</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="10.095" y="2.615"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet31</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="2.99" y="1.495"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet32</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="3.74" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet33</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="4.11" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet34</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="4.86" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet35</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="5.235" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet36</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="5.61" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet37</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="5.98" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet38</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="6.355" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet39</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="6.73" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet40</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="7.105" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet41</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="7.85" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet42</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="8.225" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet43</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="8.6" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet44</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="8.975" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet45</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="9.72" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet46</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="10.095" y="0.37"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet47</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="10.095" y="1.495"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet48</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="9.35" y="1.495"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet49</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="9.35" y="1.12"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet50</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="7.48" y="1.12"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet51</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="7.48" y="1.495"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+    <org.diylc.components.connectivity.Eyelet>
+      <name>Eyelet52</name>
+      <size reference="../../org.diylc.components.connectivity.Eyelet/size"/>
+      <holeSize reference="../../org.diylc.components.connectivity.Eyelet/holeSize"/>
+      <color reference="../../org.diylc.components.connectivity.Eyelet/color"/>
+      <point x="6.355" y="1.495"/>
+      <value></value>
+    </org.diylc.components.connectivity.Eyelet>
+  </components>
+  <groups/>
+  <lockedLayers/>
+  <hiddenLayers/>
+  <font>
+    <attributes>
+      <entry>
+        <awt-text-attribute>weight</awt-text-attribute>
+        <null/>
+      </entry>
+      <entry>
+        <awt-text-attribute>family</awt-text-attribute>
+        <string>Tahoma</string>
+      </entry>
+      <entry>
+        <awt-text-attribute>superscript</awt-text-attribute>
+        <null/>
+      </entry>
+      <entry>
+        <awt-text-attribute>size</awt-text-attribute>
+        <float>14.0</float>
+      </entry>
+      <entry>
+        <awt-text-attribute>posture</awt-text-attribute>
+        <null/>
+      </entry>
+      <entry>
+        <awt-text-attribute>transform</awt-text-attribute>
+        <null/>
+      </entry>
+      <entry>
+        <awt-text-attribute>width</awt-text-attribute>
+        <null/>
+      </entry>
+      <entry>
+        <awt-text-attribute>tracking</awt-text-attribute>
+        <null/>
+      </entry>
+    </attributes>
+  </font>
+</org.diylc.core.Project>
