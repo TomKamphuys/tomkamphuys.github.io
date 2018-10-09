@@ -19,7 +19,7 @@ Might check if ToneFactory can get a hi-res version, as they might get the kit t
 
 **Saturday 06-10-2018**: Eventually I went to a hardware store and got myself a variety of screws and nuts. I started with an amp cradle to facilitate the build.
 
-**Sunday 07-10-2018**: I finished the amp cradle. ![cradle]({{ site.baseurl }}/assets/cradle.jpg) Generated an [additional parts list](/assets/AdditionalParts.xlsx). [Das MusikDing](https://www.musikding.de/) has the 2W metal film resistors, 5W 750V Metal Oxide resistors and some handy stuff.
+**Sunday 07-10-2018**: I finished the amp cradle. ![cradle](/assets/cradle.jpg) Generated an [additional parts list](/assets/AdditionalParts.xlsx). [Das MusikDing](https://www.musikding.de/) has the 2W metal film resistors, 5W 750V Metal Oxide resistors and some handy stuff.
 
 **Monday 08-10-2018**: Mailed ToneFactory about the missing parts. Created the empty and populated turret board in DIYLC as a preparation for the alterations I'm planning to do. Some of these changes will be: Use the preferred input network as in 'Designing Tube Preamps for Guitar and Bass'; Move the grid stoppers to the tube sockets; Change the bias supply to the one discussed at [the site](http://www.valvewizard.co.uk/bias.html) of Merlin Blencowe.
 
