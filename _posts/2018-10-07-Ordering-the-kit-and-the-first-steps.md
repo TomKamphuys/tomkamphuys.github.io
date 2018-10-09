@@ -24,7 +24,7 @@ Might check if ToneFactory can get a hi-res version, as they might get the kit t
 **Monday 08-10-2018**: Mailed ToneFactory about the missing parts. Created the empty and populated turret board in DIYLC as a preparation for the alterations I'm planning to do. Some of these changes will be: Use the preferred input network as in 'Designing Tube Preamps for Guitar and Bass'; Move the grid stoppers to the tube sockets; Change the bias supply to the one discussed at [the site](http://www.valvewizard.co.uk/bias.html) of Merlin Blencowe.
 
 **Tuesday 08-10-2018**: DIYLC files are available:
-- [Empty turretboard](/assets/TurretBoardOnly.diy)
+- [Empty turretboard]({{baseurl}}/assets/TurretBoardOnly.diy)
 - [Original turretboard](/assets/TurretBoardWithComponents.diy)
 - [New turretboard](/assets/TurretBoardWithComponentsNew.diy)
 
