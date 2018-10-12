@@ -1,0 +1,4202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<org.diylc.core.Project>
+  <fileVersion>
+    <major>3</major>
+    <minor>40</minor>
+    <build>0</build>
+  </fileVersion>
+  <title>New Project</title>
+  <author>User</author>
+  <width>
+    <value>35.0</value>
+    <unit class="org.diylc.core.measures.SizeUnit">cm</unit>
+  </width>
+  <height>
+    <value>13.0</value>
+    <unit class="org.diylc.core.measures.SizeUnit">cm</unit>
+  </height>
+  <gridSpacing>
+    <value>0.1</value>
+    <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+  </gridSpacing>
+  <components>
+    <org.diylc.components.connectivity.SolderPad>
+      <name>Pad1</name>
+      <size>
+        <value>0.09</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </size>
+      <color>
+        <red>255</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <point x="3.0" y="2.3"/>
+      <type>ROUND</type>
+      <holeSize>
+        <value>0.8</value>
+        <unit class="org.diylc.core.measures.SizeUnit">mm</unit>
+      </holeSize>
+      <layer>_1</layer>
+    </org.diylc.components.connectivity.SolderPad>
+    <org.diylc.components.tube.TriodeSymbol>
+      <name>V1</name>
+      <value></value>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <display>NAME</display>
+      <showHeaters>false</showHeaters>
+      <orientation>DEFAULT</orientation>
+      <flip>NONE</flip>
+      <controlPoints>
+        <java.awt.Point x="1.0" y="3.0"/>
+        <java.awt.Point x="1.3" y="2.7"/>
+        <java.awt.Point x="1.2" y="3.3"/>
+        <java.awt.Point x="1.3" y="3.3"/>
+        <java.awt.Point x="1.4" y="3.3"/>
+      </controlPoints>
+      <directlyHeated>false</directlyHeated>
+    </org.diylc.components.tube.TriodeSymbol>
+    <org.diylc.components.tube.TriodeSymbol>
+      <name>V2</name>
+      <value></value>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>NAME</display>
+      <showHeaters>false</showHeaters>
+      <orientation>DEFAULT</orientation>
+      <flip>NONE</flip>
+      <controlPoints>
+        <java.awt.Point x="2.6" y="3.0"/>
+        <java.awt.Point x="2.9" y="2.7"/>
+        <java.awt.Point x="2.8" y="3.3"/>
+        <java.awt.Point x="2.9" y="3.3"/>
+        <java.awt.Point x="3.0" y="3.3"/>
+      </controlPoints>
+      <directlyHeated>false</directlyHeated>
+    </org.diylc.components.tube.TriodeSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R1</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.3</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </length>
+      <width>
+        <value>0.08</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </width>
+      <points>
+        <java.awt.Point x="1.3" y="1.4"/>
+        <java.awt.Point x="1.3" y="0.6"/>
+      </points>
+      <borderColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>100.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew>
+        <value>2.0</value>
+        <unit class="org.diylc.core.measures.PowerUnit">W</unit>
+      </powerNew>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R2</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.3</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </length>
+      <width>
+        <value>0.08</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </width>
+      <points>
+        <java.awt.Point x="2.9" y="0.6"/>
+        <java.awt.Point x="2.9" y="1.4"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>100.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew>
+        <value>2.0</value>
+        <unit class="org.diylc.core.measures.PowerUnit">W</unit>
+      </powerNew>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R3</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.3</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </length>
+      <width>
+        <value>0.08</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </width>
+      <points>
+        <java.awt.Point x="0.7" y="3.0"/>
+        <java.awt.Point x="0.3" y="3.0"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>10.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew>
+        <value>2.0</value>
+        <unit class="org.diylc.core.measures.PowerUnit">W</unit>
+      </powerNew>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R4</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.3</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </length>
+      <width>
+        <value>0.08</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </width>
+      <points>
+        <java.awt.Point x="0.3" y="3.5"/>
+        <java.awt.Point x="0.3" y="4.3"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>1.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">M</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew>
+        <value>2.0</value>
+        <unit class="org.diylc.core.measures.PowerUnit">W</unit>
+      </powerNew>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R5</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.3</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </length>
+      <width>
+        <value>0.08</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </width>
+      <points>
+        <java.awt.Point x="1.2" y="3.5"/>
+        <java.awt.Point x="1.2" y="4.3"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>1.6</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew>
+        <value>2.0</value>
+        <unit class="org.diylc.core.measures.PowerUnit">W</unit>
+      </powerNew>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C1</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.05</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </length>
+      <width>
+        <value>0.15</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </width>
+      <points>
+        <java.awt.Point x="1.0" y="3.5"/>
+        <java.awt.Point x="1.0" y="4.3"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>10.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">uF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew>
+        <value>63.0</value>
+        <unit class="org.diylc.core.measures.VoltageUnit">V</unit>
+      </voltageNew>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN3</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="1.2" y="3.5"/>
+        <java.awt.Point x="1.2" y="3.3"/>
+      </points>
+      <bodyColor>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor>
+        <red>204</red>
+        <green>204</green>
+        <blue>204</blue>
+        <alpha>255</alpha>
+      </leadColor>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN4</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="1.2" y="3.5"/>
+        <java.awt.Point x="1.0" y="3.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN5</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="0.3" y="4.5"/>
+        <java.awt.Point x="1.0" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN6</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="1.2" y="4.3"/>
+        <java.awt.Point x="1.2" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN7</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="1.0" y="4.3"/>
+        <java.awt.Point x="1.0" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN8</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="0.3" y="4.3"/>
+        <java.awt.Point x="0.3" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN9</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="0.3" y="3.5"/>
+        <java.awt.Point x="0.3" y="3.0"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN10</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="1.3" y="0.4"/>
+        <java.awt.Point x="2.9" y="0.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN11</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="1.3" y="0.4"/>
+        <java.awt.Point x="1.3" y="0.6"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN12</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="1.3" y="1.4"/>
+        <java.awt.Point x="1.3" y="2.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN13</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="2.9" y="0.6"/>
+        <java.awt.Point x="2.9" y="0.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN14</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="2.9" y="1.4"/>
+        <java.awt.Point x="2.9" y="2.7"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R6</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[3]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[3]/width"/>
+      <points>
+        <java.awt.Point x="2.3" y="3.0"/>
+        <java.awt.Point x="1.9" y="3.0"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value reference="../../org.diylc.components.passive.ResistorSymbol[3]/value"/>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[3]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R7</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="1.9" y="3.5"/>
+        <java.awt.Point x="1.9" y="4.3"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value reference="../../org.diylc.components.passive.ResistorSymbol[4]/value"/>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN16</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="1.9" y="3.0"/>
+        <java.awt.Point x="1.9" y="3.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN17</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="1.9" y="4.3"/>
+        <java.awt.Point x="1.9" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R8</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="2.8" y="3.5"/>
+        <java.awt.Point x="2.8" y="4.3"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>2.7</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C2</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="2.6" y="3.5"/>
+        <java.awt.Point x="2.6" y="4.3"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>0.68</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">uF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew reference="../../org.diylc.components.passive.CapacitorSymbol/voltageNew"/>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN18</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="2.8" y="3.3"/>
+        <java.awt.Point x="2.8" y="3.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN19</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="2.6" y="3.5"/>
+        <java.awt.Point x="2.8" y="3.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN20</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="2.6" y="4.3"/>
+        <java.awt.Point x="2.6" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C3</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="3.2" y="2.4"/>
+        <java.awt.Point x="3.4" y="2.4"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>10.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">nF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew>
+        <value>630.0</value>
+        <unit class="org.diylc.core.measures.VoltageUnit">V</unit>
+      </voltageNew>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C4</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="3.1" y="2.7"/>
+        <java.awt.Point x="3.5" y="2.7"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value reference="../../org.diylc.components.passive.CapacitorSymbol[3]/value"/>
+      <voltage>_63V</voltage>
+      <voltageNew reference="../../org.diylc.components.passive.CapacitorSymbol[3]/voltageNew"/>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.passive.PotentiometerSymbol>
+      <name>VR1</name>
+      <value>1M</value>
+      <controlPoints>
+        <java.awt.Point x="3.7" y="3.9"/>
+        <java.awt.Point x="3.5" y="3.7"/>
+        <java.awt.Point x="3.5" y="4.1"/>
+      </controlPoints>
+      <color reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <flip>X</flip>
+      <display>VALUE</display>
+      <orientation>DEFAULT</orientation>
+    </org.diylc.components.passive.PotentiometerSymbol>
+    <org.diylc.components.passive.PotentiometerSymbol>
+      <name>VR2</name>
+      <value>1M</value>
+      <controlPoints>
+        <java.awt.Point x="4.3" y="3.9"/>
+        <java.awt.Point x="4.5" y="3.7"/>
+        <java.awt.Point x="4.5" y="4.1"/>
+      </controlPoints>
+      <color reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <flip>NONE</flip>
+      <display>VALUE</display>
+      <orientation>DEFAULT</orientation>
+    </org.diylc.components.passive.PotentiometerSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN22</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="3.1" y="2.7"/>
+        <java.awt.Point x="2.9" y="2.7"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN23</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="3.2" y="2.4"/>
+        <java.awt.Point x="1.3" y="2.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN24</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="3.5" y="3.7"/>
+        <java.awt.Point x="3.5" y="2.7"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN26</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="3.5" y="4.1"/>
+        <java.awt.Point x="3.5" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN27</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="4.5" y="4.1"/>
+        <java.awt.Point x="4.5" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN28</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="4.5" y="3.7"/>
+        <java.awt.Point x="4.5" y="2.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R9</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="3.7" y="3.0"/>
+        <java.awt.Point x="3.7" y="3.8"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>270.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R10</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="4.1" y="3.0"/>
+        <java.awt.Point x="4.1" y="3.8"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>270.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN30</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="3.7" y="3.9"/>
+        <java.awt.Point x="3.7" y="3.8"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN31</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="4.3" y="3.9"/>
+        <java.awt.Point x="4.1" y="3.9"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN32</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="4.1" y="3.8"/>
+        <java.awt.Point x="4.1" y="3.9"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C5</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="4.3" y="3.0"/>
+        <java.awt.Point x="4.3" y="3.8"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>100.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">pF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew>
+        <value>0.0</value>
+        <unit class="org.diylc.core.measures.VoltageUnit">V</unit>
+      </voltageNew>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN33</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="4.3" y="3.8"/>
+        <java.awt.Point x="4.3" y="3.9"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN34</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="4.3" y="3.0"/>
+        <java.awt.Point x="4.5" y="3.0"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN36</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="3.7" y="3.0"/>
+        <java.awt.Point x="3.7" y="2.9"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN37</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="4.1" y="3.0"/>
+        <java.awt.Point x="4.1" y="2.9"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C6</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="3.9" y="3.0"/>
+        <java.awt.Point x="3.9" y="3.8"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>500.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">pF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew reference="../../org.diylc.components.passive.CapacitorSymbol[5]/voltageNew"/>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN38</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="3.9" y="3.8"/>
+        <java.awt.Point x="3.9" y="3.9"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN39</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="4.1" y="3.9"/>
+        <java.awt.Point x="3.9" y="3.9"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN40</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="3.9" y="3.0"/>
+        <java.awt.Point x="3.9" y="2.9"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.SolderPad>
+      <name>Pad3</name>
+      <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
+      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <point x="4.6" y="2.8"/>
+      <type>ROUND</type>
+      <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
+      <layer>_1</layer>
+    </org.diylc.components.connectivity.SolderPad>
+    <org.diylc.components.tube.TriodeSymbol>
+      <name>V3</name>
+      <value></value>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>NAME</display>
+      <showHeaters>false</showHeaters>
+      <orientation>DEFAULT</orientation>
+      <flip>NONE</flip>
+      <controlPoints>
+        <java.awt.Point x="4.7" y="2.9"/>
+        <java.awt.Point x="5.0" y="2.6"/>
+        <java.awt.Point x="4.9" y="3.2"/>
+        <java.awt.Point x="5.0" y="3.2"/>
+        <java.awt.Point x="5.1" y="3.2"/>
+      </controlPoints>
+      <directlyHeated>false</directlyHeated>
+    </org.diylc.components.tube.TriodeSymbol>
+    <org.diylc.components.tube.TriodeSymbol>
+      <name>V4</name>
+      <value></value>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>NAME</display>
+      <showHeaters>false</showHeaters>
+      <orientation>DEFAULT</orientation>
+      <flip>NONE</flip>
+      <controlPoints>
+        <java.awt.Point x="5.5" y="1.7"/>
+        <java.awt.Point x="5.8" y="1.4"/>
+        <java.awt.Point x="5.7" y="2.0"/>
+        <java.awt.Point x="5.8" y="2.0"/>
+        <java.awt.Point x="5.9" y="2.0"/>
+      </controlPoints>
+      <directlyHeated>false</directlyHeated>
+    </org.diylc.components.tube.TriodeSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R12</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="5.0" y="0.6"/>
+        <java.awt.Point x="5.0" y="1.4"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>100.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R13</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="5.7" y="3.5"/>
+        <java.awt.Point x="5.7" y="4.3"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>100.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN47</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="5.0" y="1.4"/>
+        <java.awt.Point x="5.0" y="2.6"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R14</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="4.9" y="3.5"/>
+        <java.awt.Point x="4.9" y="4.3"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>820.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">R</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN48</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="4.9" y="3.2"/>
+        <java.awt.Point x="4.9" y="3.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN50</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="5.7" y="4.3"/>
+        <java.awt.Point x="5.7" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN51</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="1.0" y="4.5"/>
+        <java.awt.Point x="1.2" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN52</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="1.2" y="4.5"/>
+        <java.awt.Point x="2.3" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN53</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="2.3" y="4.5"/>
+        <java.awt.Point x="2.6" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN54</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="2.6" y="4.5"/>
+        <java.awt.Point x="2.7" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN55</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="2.7" y="4.5"/>
+        <java.awt.Point x="3.5" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN56</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="3.5" y="4.5"/>
+        <java.awt.Point x="4.5" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN57</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="4.5" y="4.5"/>
+        <java.awt.Point x="4.9" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN58</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="4.9" y="4.5"/>
+        <java.awt.Point x="5.7" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R15</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="5.5" y="1.7"/>
+        <java.awt.Point x="5.0" y="1.7"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>5.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R16</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="5.5" y="2.6"/>
+        <java.awt.Point x="5.5" y="1.7"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>47.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C9</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="0.7" y="3.5"/>
+        <java.awt.Point x="0.7" y="4.3"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>500.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">pF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew>
+        <value>0.0</value>
+        <unit class="org.diylc.core.measures.VoltageUnit">V</unit>
+      </voltageNew>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN59</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="0.7" y="3.5"/>
+        <java.awt.Point x="0.7" y="3.0"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN60</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="0.7" y="4.3"/>
+        <java.awt.Point x="0.7" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C10</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="2.3" y="3.5"/>
+        <java.awt.Point x="2.3" y="4.3"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value reference="../../org.diylc.components.passive.CapacitorSymbol[7]/value"/>
+      <voltage>_63V</voltage>
+      <voltageNew reference="../../org.diylc.components.passive.CapacitorSymbol[7]/voltageNew"/>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN61</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="1.3" y="2.7"/>
+        <java.awt.Point x="1.3" y="2.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN62</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="2.3" y="4.3"/>
+        <java.awt.Point x="2.3" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN63</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="2.3" y="3.5"/>
+        <java.awt.Point x="2.3" y="3.0"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.semiconductors.DiodeSymbol>
+      <name>D1</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </length>
+      <width>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </width>
+      <points>
+        <java.awt.Point x="5.5" y="2.6"/>
+        <java.awt.Point x="5.7" y="2.6"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>1N4007</value>
+    </org.diylc.components.semiconductors.DiodeSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN70</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="5.7" y="3.5"/>
+        <java.awt.Point x="5.7" y="2.6"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN71</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="5.7" y="2.6"/>
+        <java.awt.Point x="5.7" y="2.0"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN73</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="2.9" y="0.4"/>
+        <java.awt.Point x="5.0" y="0.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN74</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="5.0" y="0.4"/>
+        <java.awt.Point x="5.0" y="0.6"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN75</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="5.0" y="0.4"/>
+        <java.awt.Point x="5.8" y="0.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN76</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="5.8" y="0.4"/>
+        <java.awt.Point x="5.8" y="1.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R17</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="7.0" y="0.4"/>
+        <java.awt.Point x="6.6" y="0.4"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>10.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew>
+        <value>5.0</value>
+        <unit class="org.diylc.core.measures.PowerUnit">W</unit>
+      </powerNew>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C11</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="7.4" y="0.4"/>
+        <java.awt.Point x="7.4" y="0.7"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>16.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">uF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew>
+        <value>500.0</value>
+        <unit class="org.diylc.core.measures.VoltageUnit">V</unit>
+      </voltageNew>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R18</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="6.5" y="1.7"/>
+        <java.awt.Point x="6.5" y="2.5"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>56.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.PotentiometerSymbol>
+      <name>VR3</name>
+      <value>25k</value>
+      <controlPoints>
+        <java.awt.Point x="6.8" y="3.9"/>
+        <java.awt.Point x="7.0" y="3.7"/>
+        <java.awt.Point x="7.0" y="4.1"/>
+      </controlPoints>
+      <color reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <flip>NONE</flip>
+      <display>VALUE</display>
+      <orientation>DEFAULT</orientation>
+    </org.diylc.components.passive.PotentiometerSymbol>
+    <org.diylc.components.passive.PotentiometerSymbol>
+      <name>VR4</name>
+      <value>1M</value>
+      <controlPoints>
+        <java.awt.Point x="7.2" y="3.1"/>
+        <java.awt.Point x="7.0" y="2.9"/>
+        <java.awt.Point x="7.0" y="3.3"/>
+      </controlPoints>
+      <color reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <flip>X</flip>
+      <display>VALUE</display>
+      <orientation>DEFAULT</orientation>
+    </org.diylc.components.passive.PotentiometerSymbol>
+    <org.diylc.components.passive.PotentiometerSymbol>
+      <name>VR5</name>
+      <value>250k</value>
+      <controlPoints>
+        <java.awt.Point x="7.2" y="1.9"/>
+        <java.awt.Point x="7.0" y="1.7"/>
+        <java.awt.Point x="7.0" y="2.1"/>
+      </controlPoints>
+      <color reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <flip>X</flip>
+      <display>VALUE</display>
+      <orientation>DEFAULT</orientation>
+    </org.diylc.components.passive.PotentiometerSymbol>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C12</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="6.5" y="2.9"/>
+        <java.awt.Point x="6.5" y="3.7"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>22.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">nF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew reference="../../org.diylc.components.passive.CapacitorSymbol[5]/voltageNew"/>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C13</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="6.9" y="2.7"/>
+        <java.awt.Point x="6.6" y="2.7"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>22.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">nF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew reference="../../org.diylc.components.passive.CapacitorSymbol[3]/voltageNew"/>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C14</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="7.0" y="1.5"/>
+        <java.awt.Point x="6.5" y="1.5"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>250.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">pF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew>
+        <value>0.0</value>
+        <unit class="org.diylc.core.measures.VoltageUnit">V</unit>
+      </voltageNew>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN78</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="6.5" y="2.9"/>
+        <java.awt.Point x="6.5" y="2.7"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN79</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="6.5" y="2.7"/>
+        <java.awt.Point x="6.5" y="2.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN81</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="6.5" y="1.5"/>
+        <java.awt.Point x="6.5" y="1.7"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN86</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="7.0" y="3.5"/>
+        <java.awt.Point x="7.0" y="3.7"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN87</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="6.8" y="3.9"/>
+        <java.awt.Point x="6.5" y="3.9"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN88</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="6.5" y="3.7"/>
+        <java.awt.Point x="6.5" y="3.9"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN90</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="7.0" y="2.7"/>
+        <java.awt.Point x="7.0" y="2.1"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN93</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="7.0" y="1.7"/>
+        <java.awt.Point x="7.0" y="1.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN95</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="6.2" y="1.5"/>
+        <java.awt.Point x="6.2" y="2.6"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN96</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="6.2" y="2.6"/>
+        <java.awt.Point x="5.7" y="2.6"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN97</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="5.8" y="0.4"/>
+        <java.awt.Point x="6.6" y="0.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN98</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="7.0" y="0.4"/>
+        <java.awt.Point x="7.4" y="0.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.misc.GroundSymbol>
+      <name>GND3</name>
+      <point x="7.4" y="0.7"/>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <size>
+        <value>0.15</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </size>
+      <type>DEFAULT</type>
+    </org.diylc.components.misc.GroundSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN100</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="7.0" y="4.1"/>
+        <java.awt.Point x="7.0" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN101</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="7.0" y="4.5"/>
+        <java.awt.Point x="5.7" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN103</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.3" y="4.5"/>
+        <java.awt.Point x="7.0" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.tube.TriodeSymbol>
+      <name>V5</name>
+      <value></value>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>NAME</display>
+      <showHeaters>false</showHeaters>
+      <orientation>DEFAULT</orientation>
+      <flip>NONE</flip>
+      <controlPoints>
+        <java.awt.Point x="7.8" y="1.9"/>
+        <java.awt.Point x="8.1" y="1.6"/>
+        <java.awt.Point x="8.0" y="2.2"/>
+        <java.awt.Point x="8.1" y="2.2"/>
+        <java.awt.Point x="8.2" y="2.2"/>
+      </controlPoints>
+      <directlyHeated>false</directlyHeated>
+    </org.diylc.components.tube.TriodeSymbol>
+    <org.diylc.components.tube.TriodeSymbol>
+      <name>V6</name>
+      <value></value>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>NAME</display>
+      <showHeaters>false</showHeaters>
+      <orientation>DEFAULT</orientation>
+      <flip>X</flip>
+      <controlPoints>
+        <java.awt.Point x="9.2" y="1.9"/>
+        <java.awt.Point x="8.9" y="1.6"/>
+        <java.awt.Point x="9.0" y="2.2"/>
+        <java.awt.Point x="8.9" y="2.2"/>
+        <java.awt.Point x="8.8" y="2.2"/>
+      </controlPoints>
+      <directlyHeated>false</directlyHeated>
+    </org.diylc.components.tube.TriodeSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R19</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="8.5" y="2.4"/>
+        <java.awt.Point x="8.5" y="3.1"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>470.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">R</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R20</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="8.5" y="3.1"/>
+        <java.awt.Point x="8.5" y="3.7"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>10.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.PotentiometerSymbol>
+      <name>VR4</name>
+      <value>5k</value>
+      <controlPoints>
+        <java.awt.Point x="8.3" y="3.9"/>
+        <java.awt.Point x="8.5" y="3.7"/>
+        <java.awt.Point x="8.5" y="4.1"/>
+      </controlPoints>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </color>
+      <flip>NONE</flip>
+      <display>VALUE</display>
+      <orientation>DEFAULT</orientation>
+    </org.diylc.components.passive.PotentiometerSymbol>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C15</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="8.3" y="3.9"/>
+        <java.awt.Point x="8.3" y="4.5"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>100.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">nF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew>
+        <value>630.0</value>
+        <unit class="org.diylc.core.measures.VoltageUnit">V</unit>
+      </voltageNew>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN102</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.5" y="4.1"/>
+        <java.awt.Point x="8.5" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN107</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.3" y="4.5"/>
+        <java.awt.Point x="8.5" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN82</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="7.0" y="3.3"/>
+        <java.awt.Point x="7.0" y="3.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN83</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="7.0" y="2.9"/>
+        <java.awt.Point x="7.0" y="2.7"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN84</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="7.2" y="3.1"/>
+        <java.awt.Point x="7.2" y="3.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN85</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="7.0" y="3.4"/>
+        <java.awt.Point x="7.2" y="3.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN104</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.0" y="2.2"/>
+        <java.awt.Point x="8.0" y="2.3"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN105</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.0" y="2.3"/>
+        <java.awt.Point x="8.5" y="2.3"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN106</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.5" y="2.3"/>
+        <java.awt.Point x="8.5" y="2.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN108</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.5" y="2.3"/>
+        <java.awt.Point x="9.0" y="2.3"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN109</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="9.0" y="2.3"/>
+        <java.awt.Point x="9.0" y="2.2"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C16</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="7.2" y="1.9"/>
+        <java.awt.Point x="7.4" y="1.9"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>2.2</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">nF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew reference="../../org.diylc.components.passive.CapacitorSymbol[3]/voltageNew"/>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R15</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.3</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </length>
+      <width>
+        <value>0.08</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </width>
+      <points>
+        <java.awt.Point x="7.8" y="1.9"/>
+        <java.awt.Point x="7.4" y="1.9"/>
+      </points>
+      <borderColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </labelColor>
+      <leadColor reference="../labelColor"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>10.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew>
+        <value>2.0</value>
+        <unit class="org.diylc.core.measures.PowerUnit">W</unit>
+      </powerNew>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R21</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[20]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[20]/width"/>
+      <points>
+        <java.awt.Point x="9.6" y="1.9"/>
+        <java.awt.Point x="9.2" y="1.9"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/borderColor"/>
+      <labelColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/labelColor"/>
+      <leadColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/labelColor"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value reference="../../org.diylc.components.passive.ResistorSymbol[20]/value"/>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[20]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R22</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[20]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[20]/width"/>
+      <points>
+        <java.awt.Point x="8.5" y="3.1"/>
+        <java.awt.Point x="7.8" y="3.1"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/borderColor"/>
+      <labelColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/labelColor"/>
+      <leadColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/labelColor"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>1.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">M</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[20]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R23</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[20]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[20]/width"/>
+      <points>
+        <java.awt.Point x="9.2" y="3.1"/>
+        <java.awt.Point x="8.5" y="3.1"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/borderColor"/>
+      <labelColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/labelColor"/>
+      <leadColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/labelColor"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value reference="../../org.diylc.components.passive.ResistorSymbol[22]/value"/>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[20]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN91</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="7.8" y="3.1"/>
+        <java.awt.Point x="7.4" y="3.1"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN111</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="9.6" y="1.9"/>
+        <java.awt.Point x="9.6" y="3.1"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN112</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="9.2" y="3.1"/>
+        <java.awt.Point x="9.6" y="3.1"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C17</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="9.6" y="3.1"/>
+        <java.awt.Point x="9.6" y="3.6"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>10.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">nF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew reference="../../org.diylc.components.passive.CapacitorSymbol[3]/voltageNew"/>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN113</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.5" y="3.6"/>
+        <java.awt.Point x="9.6" y="3.6"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R24</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="8.1" y="0.4"/>
+        <java.awt.Point x="8.1" y="1.7"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>82.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R25</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="8.9" y="0.4"/>
+        <java.awt.Point x="8.9" y="1.3"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>100.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN116</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.1" y="0.4"/>
+        <java.awt.Point x="7.4" y="0.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN117</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.9" y="0.4"/>
+        <java.awt.Point x="8.1" y="0.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C18</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="8.2" y="1.6"/>
+        <java.awt.Point x="8.8" y="1.6"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>47.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">pF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew reference="../../org.diylc.components.passive.CapacitorSymbol[3]/voltageNew"/>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN114</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.2" y="1.6"/>
+        <java.awt.Point x="8.1" y="1.6"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN115</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.8" y="1.6"/>
+        <java.awt.Point x="8.9" y="1.6"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN118</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.1" y="1.7"/>
+        <java.awt.Point x="8.1" y="1.6"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN119</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.9" y="1.3"/>
+        <java.awt.Point x="8.9" y="1.6"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C19</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="9.9" y="1.4"/>
+        <java.awt.Point x="10.1" y="1.4"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>22.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">nF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew reference="../../org.diylc.components.passive.CapacitorSymbol[3]/voltageNew"/>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C20</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="9.9" y="3.0"/>
+        <java.awt.Point x="10.1" y="3.0"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>22.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">nF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew reference="../../org.diylc.components.passive.CapacitorSymbol[3]/voltageNew"/>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN121</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="9.9" y="1.4"/>
+        <java.awt.Point x="8.1" y="1.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R26</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="10.1" y="1.4"/>
+        <java.awt.Point x="10.1" y="2.2"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>220.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R27</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="10.1" y="2.2"/>
+        <java.awt.Point x="10.1" y="3.0"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>220.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.tube.PentodeSymbol>
+      <name>V7</name>
+      <value></value>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>NAME</display>
+      <showHeaters>false</showHeaters>
+      <orientation>DEFAULT</orientation>
+      <flip>NONE</flip>
+      <controlPoints>
+        <java.awt.Point x="10.5" y="1.4"/>
+        <java.awt.Point x="10.8" y="1.0"/>
+        <java.awt.Point x="10.7" y="1.6"/>
+        <java.awt.Point x="11.1" y="1.3"/>
+        <java.awt.Point x="10.5" y="1.2"/>
+        <java.awt.Point x="10.8" y="1.6"/>
+        <java.awt.Point x="10.9" y="1.6"/>
+      </controlPoints>
+      <exposeSuppressorGrid>true</exposeSuppressorGrid>
+    </org.diylc.components.tube.PentodeSymbol>
+    <org.diylc.components.tube.PentodeSymbol>
+      <name>V8</name>
+      <value></value>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>NAME</display>
+      <showHeaters>false</showHeaters>
+      <orientation>DEFAULT</orientation>
+      <flip>Y</flip>
+      <controlPoints>
+        <java.awt.Point x="10.5" y="3.0"/>
+        <java.awt.Point x="10.8" y="3.4"/>
+        <java.awt.Point x="10.7" y="2.8"/>
+        <java.awt.Point x="11.1" y="3.1"/>
+        <java.awt.Point x="10.5" y="3.2"/>
+        <java.awt.Point x="10.8" y="2.8"/>
+        <java.awt.Point x="10.9" y="2.8"/>
+      </controlPoints>
+      <exposeSuppressorGrid>true</exposeSuppressorGrid>
+    </org.diylc.components.tube.PentodeSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R28</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[20]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[20]/width"/>
+      <points>
+        <java.awt.Point x="10.5" y="3.0"/>
+        <java.awt.Point x="10.1" y="3.0"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/borderColor"/>
+      <labelColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/labelColor"/>
+      <leadColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/labelColor"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>5.6</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[20]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R29</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[20]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[20]/width"/>
+      <points>
+        <java.awt.Point x="10.5" y="1.4"/>
+        <java.awt.Point x="10.1" y="1.4"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/borderColor"/>
+      <labelColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/labelColor"/>
+      <leadColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/labelColor"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>5.6</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[20]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R30</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="10.7" y="1.6"/>
+        <java.awt.Point x="10.7" y="2.0"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>1.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">R</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R31</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="10.7" y="2.4"/>
+        <java.awt.Point x="10.7" y="2.8"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>1.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">R</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN125</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="10.7" y="2.0"/>
+        <java.awt.Point x="10.7" y="2.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN126</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="10.5" y="3.2"/>
+        <java.awt.Point x="10.5" y="2.2"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN127</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="10.5" y="2.2"/>
+        <java.awt.Point x="10.7" y="2.2"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN128</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="10.5" y="2.2"/>
+        <java.awt.Point x="10.5" y="1.2"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R32</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[20]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[20]/width"/>
+      <points>
+        <java.awt.Point x="11.5" y="1.3"/>
+        <java.awt.Point x="11.1" y="1.3"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/borderColor"/>
+      <labelColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/labelColor"/>
+      <leadColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/labelColor"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>470.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">R</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew>
+        <value>5.0</value>
+        <unit class="org.diylc.core.measures.PowerUnit">W</unit>
+      </powerNew>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R33</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[20]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[20]/width"/>
+      <points>
+        <java.awt.Point x="11.5" y="3.1"/>
+        <java.awt.Point x="11.1" y="3.1"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/borderColor"/>
+      <labelColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/labelColor"/>
+      <leadColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/labelColor"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value reference="../../org.diylc.components.passive.ResistorSymbol[32]/value"/>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[32]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R34</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="11.5" y="0.8"/>
+        <java.awt.Point x="11.5" y="1.3"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>1.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew>
+        <value>5.0</value>
+        <unit class="org.diylc.core.measures.PowerUnit">W</unit>
+      </powerNew>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN129</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="11.5" y="3.1"/>
+        <java.awt.Point x="11.5" y="1.3"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.TransformerCoil>
+      <name>L1</name>
+      <controlPoints>
+        <java.awt.Point x="12.1" y="1.5"/>
+        <java.awt.Point x="12.1" y="1.7"/>
+      </controlPoints>
+      <orientation>DEFAULT</orientation>
+      <color reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <tapSpacing>
+        <value>0.2</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </tapSpacing>
+      <body>
+        <java.awt.geom.GeneralPath serialization="custom">
+          <unserializable-parents/>
+          <java.awt.geom.Path2D_-Float>
+            <default/>
+            <byte>48</byte>
+            <int>4</int>
+            <int>8</int>
+            <byte>1</byte>
+            <byte>64</byte>
+            <float>2420.0</float>
+            <float>300.0</float>
+            <byte>65</byte>
+            <float>2445.0</float>
+            <float>300.0</float>
+            <byte>64</byte>
+            <float>2420.0</float>
+            <float>340.0</float>
+            <byte>65</byte>
+            <float>2445.0</float>
+            <float>340.0</float>
+            <byte>97</byte>
+          </java.awt.geom.Path2D_-Float>
+        </java.awt.geom.GeneralPath>
+        <java.awt.geom.GeneralPath serialization="custom">
+          <unserializable-parents/>
+          <java.awt.geom.Path2D_-Float>
+            <default/>
+            <byte>48</byte>
+            <int>5</int>
+            <int>26</int>
+            <byte>1</byte>
+            <byte>64</byte>
+            <float>2445.0</float>
+            <float>300.0</float>
+            <byte>67</byte>
+            <float>2455.0</float>
+            <float>300.0</float>
+            <float>2455.0</float>
+            <float>310.0</float>
+            <float>2445.0</float>
+            <float>310.0</float>
+            <byte>67</byte>
+            <float>2455.0</float>
+            <float>310.0</float>
+            <float>2455.0</float>
+            <float>320.0</float>
+            <float>2445.0</float>
+            <float>320.0</float>
+            <byte>67</byte>
+            <float>2455.0</float>
+            <float>320.0</float>
+            <float>2455.0</float>
+            <float>330.0</float>
+            <float>2445.0</float>
+            <float>330.0</float>
+            <byte>67</byte>
+            <float>2455.0</float>
+            <float>330.0</float>
+            <float>2455.0</float>
+            <float>340.0</float>
+            <float>2445.0</float>
+            <float>340.0</float>
+            <byte>97</byte>
+          </java.awt.geom.Path2D_-Float>
+        </java.awt.geom.GeneralPath>
+      </body>
+    </org.diylc.components.passive.TransformerCoil>
+    <org.diylc.components.passive.TransformerCoil>
+      <name>L2</name>
+      <controlPoints>
+        <java.awt.Point x="12.1" y="1.7"/>
+        <java.awt.Point x="12.1" y="1.9"/>
+      </controlPoints>
+      <orientation>DEFAULT</orientation>
+      <color reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <tapSpacing reference="../../org.diylc.components.passive.TransformerCoil/tapSpacing"/>
+      <body>
+        <java.awt.geom.GeneralPath serialization="custom">
+          <unserializable-parents/>
+          <java.awt.geom.Path2D_-Float>
+            <default/>
+            <byte>48</byte>
+            <int>4</int>
+            <int>8</int>
+            <byte>1</byte>
+            <byte>64</byte>
+            <float>2420.0</float>
+            <float>340.0</float>
+            <byte>65</byte>
+            <float>2445.0</float>
+            <float>340.0</float>
+            <byte>64</byte>
+            <float>2420.0</float>
+            <float>380.0</float>
+            <byte>65</byte>
+            <float>2445.0</float>
+            <float>380.0</float>
+            <byte>97</byte>
+          </java.awt.geom.Path2D_-Float>
+        </java.awt.geom.GeneralPath>
+        <java.awt.geom.GeneralPath serialization="custom">
+          <unserializable-parents/>
+          <java.awt.geom.Path2D_-Float>
+            <default/>
+            <byte>48</byte>
+            <int>5</int>
+            <int>26</int>
+            <byte>1</byte>
+            <byte>64</byte>
+            <float>2445.0</float>
+            <float>340.0</float>
+            <byte>67</byte>
+            <float>2455.0</float>
+            <float>340.0</float>
+            <float>2455.0</float>
+            <float>350.0</float>
+            <float>2445.0</float>
+            <float>350.0</float>
+            <byte>67</byte>
+            <float>2455.0</float>
+            <float>350.0</float>
+            <float>2455.0</float>
+            <float>360.0</float>
+            <float>2445.0</float>
+            <float>360.0</float>
+            <byte>67</byte>
+            <float>2455.0</float>
+            <float>360.0</float>
+            <float>2455.0</float>
+            <float>370.0</float>
+            <float>2445.0</float>
+            <float>370.0</float>
+            <byte>67</byte>
+            <float>2455.0</float>
+            <float>370.0</float>
+            <float>2455.0</float>
+            <float>380.0</float>
+            <float>2445.0</float>
+            <float>380.0</float>
+            <byte>97</byte>
+          </java.awt.geom.Path2D_-Float>
+        </java.awt.geom.GeneralPath>
+      </body>
+    </org.diylc.components.passive.TransformerCoil>
+    <org.diylc.components.passive.TransformerCoil>
+      <name>L3</name>
+      <controlPoints>
+        <java.awt.Point x="12.5" y="1.9"/>
+        <java.awt.Point x="12.5" y="1.5"/>
+      </controlPoints>
+      <orientation>_180</orientation>
+      <color reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <tapSpacing>
+        <value>0.4</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </tapSpacing>
+      <body>
+        <java.awt.geom.GeneralPath serialization="custom">
+          <unserializable-parents/>
+          <java.awt.geom.Path2D_-Float>
+            <default/>
+            <byte>48</byte>
+            <int>4</int>
+            <int>8</int>
+            <byte>1</byte>
+            <byte>64</byte>
+            <float>2500.0</float>
+            <float>380.0</float>
+            <byte>65</byte>
+            <float>2475.0</float>
+            <float>380.0</float>
+            <byte>64</byte>
+            <float>2500.0</float>
+            <float>300.0</float>
+            <byte>65</byte>
+            <float>2475.0</float>
+            <float>300.0</float>
+            <byte>97</byte>
+          </java.awt.geom.Path2D_-Float>
+        </java.awt.geom.GeneralPath>
+        <java.awt.geom.GeneralPath serialization="custom">
+          <unserializable-parents/>
+          <java.awt.geom.Path2D_-Float>
+            <default/>
+            <byte>48</byte>
+            <int>9</int>
+            <int>50</int>
+            <byte>1</byte>
+            <byte>64</byte>
+            <float>2475.0</float>
+            <float>380.0</float>
+            <byte>67</byte>
+            <float>2465.0</float>
+            <float>380.0</float>
+            <float>2465.0</float>
+            <float>370.0</float>
+            <float>2475.0</float>
+            <float>370.0</float>
+            <byte>67</byte>
+            <float>2465.0</float>
+            <float>370.0</float>
+            <float>2465.0</float>
+            <float>360.0</float>
+            <float>2475.0</float>
+            <float>360.0</float>
+            <byte>67</byte>
+            <float>2465.0</float>
+            <float>360.0</float>
+            <float>2465.0</float>
+            <float>350.0</float>
+            <float>2475.0</float>
+            <float>350.0</float>
+            <byte>67</byte>
+            <float>2465.0</float>
+            <float>350.0</float>
+            <float>2465.0</float>
+            <float>340.0</float>
+            <float>2475.0</float>
+            <float>340.0</float>
+            <byte>67</byte>
+            <float>2465.0</float>
+            <float>340.0</float>
+            <float>2465.0</float>
+            <float>330.0</float>
+            <float>2475.0</float>
+            <float>330.0</float>
+            <byte>67</byte>
+            <float>2465.0</float>
+            <float>330.0</float>
+            <float>2465.0</float>
+            <float>320.0</float>
+            <float>2475.0</float>
+            <float>320.0</float>
+            <byte>67</byte>
+            <float>2465.0</float>
+            <float>320.0</float>
+            <float>2465.0</float>
+            <float>310.0</float>
+            <float>2475.0</float>
+            <float>310.0</float>
+            <byte>67</byte>
+            <float>2465.0</float>
+            <float>310.0</float>
+            <float>2465.0</float>
+            <float>300.0</float>
+            <float>2475.0</float>
+            <float>300.0</float>
+            <byte>97</byte>
+          </java.awt.geom.Path2D_-Float>
+        </java.awt.geom.GeneralPath>
+      </body>
+    </org.diylc.components.passive.TransformerCoil>
+    <org.diylc.components.passive.TransformerCore>
+      <name>T1</name>
+      <controlPoints>
+        <java.awt.Point x="12.3" y="1.5"/>
+        <java.awt.Point x="12.3" y="1.9"/>
+      </controlPoints>
+      <color reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+    </org.diylc.components.passive.TransformerCore>
+    <org.diylc.components.connectivity.Line>
+      <name>LN130</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="12.1" y="1.7"/>
+        <java.awt.Point x="12.0" y="1.7"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN131</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="12.0" y="1.7"/>
+        <java.awt.Point x="12.0" y="0.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN132</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="10.8" y="1.0"/>
+        <java.awt.Point x="10.8" y="0.8"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN133</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="10.8" y="0.8"/>
+        <java.awt.Point x="12.1" y="0.8"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN134</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="12.1" y="0.8"/>
+        <java.awt.Point x="12.1" y="1.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN135</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="10.8" y="3.4"/>
+        <java.awt.Point x="10.8" y="3.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN136</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="10.8" y="3.5"/>
+        <java.awt.Point x="12.1" y="3.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN137</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="12.1" y="3.5"/>
+        <java.awt.Point x="12.1" y="1.9"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.TransformerCoil>
+      <name>L4</name>
+      <controlPoints>
+        <java.awt.Point x="12.4" y="0.4"/>
+        <java.awt.Point x="12.6" y="0.4"/>
+      </controlPoints>
+      <orientation>_270</orientation>
+      <color reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <tapSpacing reference="../../org.diylc.components.passive.TransformerCoil/tapSpacing"/>
+      <body>
+        <java.awt.geom.GeneralPath serialization="custom">
+          <unserializable-parents/>
+          <java.awt.geom.Path2D_-Float>
+            <default/>
+            <byte>48</byte>
+            <int>4</int>
+            <int>8</int>
+            <byte>1</byte>
+            <byte>64</byte>
+            <float>2480.0</float>
+            <float>80.0</float>
+            <byte>65</byte>
+            <float>2480.0</float>
+            <float>55.0</float>
+            <byte>64</byte>
+            <float>2520.0</float>
+            <float>80.0</float>
+            <byte>65</byte>
+            <float>2520.0</float>
+            <float>55.0</float>
+            <byte>97</byte>
+          </java.awt.geom.Path2D_-Float>
+        </java.awt.geom.GeneralPath>
+        <java.awt.geom.GeneralPath serialization="custom">
+          <unserializable-parents/>
+          <java.awt.geom.Path2D_-Float>
+            <default/>
+            <byte>48</byte>
+            <int>5</int>
+            <int>26</int>
+            <byte>1</byte>
+            <byte>64</byte>
+            <float>2480.0</float>
+            <float>55.0</float>
+            <byte>67</byte>
+            <float>2480.0</float>
+            <float>45.0</float>
+            <float>2490.0</float>
+            <float>45.0</float>
+            <float>2490.0</float>
+            <float>55.0</float>
+            <byte>67</byte>
+            <float>2490.0</float>
+            <float>45.0</float>
+            <float>2500.0</float>
+            <float>45.0</float>
+            <float>2500.0</float>
+            <float>55.0</float>
+            <byte>67</byte>
+            <float>2500.0</float>
+            <float>45.0</float>
+            <float>2510.0</float>
+            <float>45.0</float>
+            <float>2510.0</float>
+            <float>55.0</float>
+            <byte>67</byte>
+            <float>2510.0</float>
+            <float>45.0</float>
+            <float>2520.0</float>
+            <float>45.0</float>
+            <float>2520.0</float>
+            <float>55.0</float>
+            <byte>97</byte>
+          </java.awt.geom.Path2D_-Float>
+        </java.awt.geom.GeneralPath>
+      </body>
+    </org.diylc.components.passive.TransformerCoil>
+    <org.diylc.components.passive.TransformerCore>
+      <name>T2</name>
+      <controlPoints>
+        <java.awt.Point x="12.4" y="0.2"/>
+        <java.awt.Point x="12.6" y="0.2"/>
+      </controlPoints>
+      <color reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+    </org.diylc.components.passive.TransformerCore>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R35</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[20]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[20]/width"/>
+      <points>
+        <java.awt.Point x="10.2" y="3.6"/>
+        <java.awt.Point x="9.8" y="3.6"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/borderColor"/>
+      <labelColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/labelColor"/>
+      <leadColor reference="../../org.diylc.components.passive.ResistorSymbol[20]/labelColor"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>27.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[20]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN138</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="10.2" y="3.6"/>
+        <java.awt.Point x="12.5" y="3.6"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN139</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="12.5" y="3.6"/>
+        <java.awt.Point x="12.5" y="1.9"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN140</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="9.8" y="3.6"/>
+        <java.awt.Point x="9.6" y="3.6"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN2</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="0.7" y="3.0"/>
+        <java.awt.Point x="1.0" y="3.0"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN1</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="2.3" y="3.0"/>
+        <java.awt.Point x="2.6" y="3.0"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN15</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="4.5" y="2.4"/>
+        <java.awt.Point x="3.4" y="2.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN21</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="2.8" y="4.3"/>
+        <java.awt.Point x="2.8" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN25</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="3.7" y="2.9"/>
+        <java.awt.Point x="4.7" y="2.9"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN29</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="4.9" y="4.3"/>
+        <java.awt.Point x="4.9" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN35</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="6.2" y="1.5"/>
+        <java.awt.Point x="6.5" y="1.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN41</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="6.5" y="2.7"/>
+        <java.awt.Point x="6.6" y="2.7"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN42</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="6.9" y="2.7"/>
+        <java.awt.Point x="7.0" y="2.7"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R11</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="10.1" y="0.4"/>
+        <java.awt.Point x="9.3" y="0.4"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>8.2</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[16]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C7</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="6.3" y="0.4"/>
+        <java.awt.Point x="6.3" y="0.7"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>15.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">uF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew>
+        <value>475.0</value>
+        <unit class="org.diylc.core.measures.VoltageUnit">V</unit>
+      </voltageNew>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.misc.GroundSymbol>
+      <name>GND1</name>
+      <point x="6.3" y="0.7"/>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <size reference="../../org.diylc.components.misc.GroundSymbol/size"/>
+      <type>DEFAULT</type>
+    </org.diylc.components.misc.GroundSymbol>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C21</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="12.8" y="0.4"/>
+        <java.awt.Point x="12.8" y="0.7"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>32.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">uF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew reference="../../org.diylc.components.passive.CapacitorSymbol[9]/voltageNew"/>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN43</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.9" y="0.4"/>
+        <java.awt.Point x="9.3" y="0.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN45</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="9.9" y="3.0"/>
+        <java.awt.Point x="9.8" y="3.0"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN46</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="9.8" y="3.0"/>
+        <java.awt.Point x="9.8" y="1.6"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN49</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="9.8" y="1.6"/>
+        <java.awt.Point x="8.9" y="1.6"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN64</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.5" y="4.5"/>
+        <java.awt.Point x="13.1" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN65</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="13.1" y="4.5"/>
+        <java.awt.Point x="13.1" y="1.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN66</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="13.1" y="1.5"/>
+        <java.awt.Point x="12.5" y="1.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.passive.CapacitorSymbol>
+      <name>C22</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
+      <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
+      <points>
+        <java.awt.Point x="10.1" y="0.4"/>
+        <java.awt.Point x="10.1" y="0.7"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>32.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">uF</unit>
+      </value>
+      <voltage>_63V</voltage>
+      <voltageNew reference="../../org.diylc.components.passive.CapacitorSymbol[9]/voltageNew"/>
+      <polarized>false</polarized>
+    </org.diylc.components.passive.CapacitorSymbol>
+    <org.diylc.components.misc.GroundSymbol>
+      <name>GND4</name>
+      <point x="10.1" y="0.7"/>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <size reference="../../org.diylc.components.misc.GroundSymbol/size"/>
+      <type>DEFAULT</type>
+    </org.diylc.components.misc.GroundSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN69</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="10.1" y="0.4"/>
+        <java.awt.Point x="12.1" y="0.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN72</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="12.1" y="0.4"/>
+        <java.awt.Point x="12.4" y="0.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.misc.GroundSymbol>
+      <name>GND2</name>
+      <point x="12.8" y="0.7"/>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <size reference="../../org.diylc.components.misc.GroundSymbol/size"/>
+      <type>DEFAULT</type>
+    </org.diylc.components.misc.GroundSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN77</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="12.8" y="0.4"/>
+        <java.awt.Point x="12.6" y="0.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN80</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="11.5" y="0.8"/>
+        <java.awt.Point x="11.5" y="0.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.SolderPad>
+      <name>Pad2</name>
+      <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
+      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <point x="9.0" y="1.3"/>
+      <type>ROUND</type>
+      <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
+      <layer>_1</layer>
+    </org.diylc.components.connectivity.SolderPad>
+    <org.diylc.components.connectivity.SolderPad>
+      <name>Pad4</name>
+      <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
+      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <point x="12.1" y="0.7"/>
+      <type>ROUND</type>
+      <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
+      <layer>_1</layer>
+    </org.diylc.components.connectivity.SolderPad>
+    <org.diylc.components.connectivity.SolderPad>
+      <name>Pad5</name>
+      <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
+      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <point x="11.6" y="0.7"/>
+      <type>ROUND</type>
+      <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
+      <layer>_1</layer>
+    </org.diylc.components.connectivity.SolderPad>
+    <org.diylc.components.connectivity.Line>
+      <name>LN44</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="7.4" y="3.1"/>
+        <java.awt.Point x="7.4" y="1.9"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN67</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="10.1" y="2.2"/>
+        <java.awt.Point x="9.3" y="2.2"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN68</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="9.3" y="2.2"/>
+        <java.awt.Point x="9.3" y="4.7"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.SolderPad>
+      <name>Pad6</name>
+      <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
+      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <point x="9.9" y="2.1"/>
+      <type>ROUND</type>
+      <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
+      <layer>_1</layer>
+    </org.diylc.components.connectivity.SolderPad>
+    <org.diylc.components.connectivity.SolderPad>
+      <name>Pad7</name>
+      <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
+      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <point x="9.7" y="2.1"/>
+      <type>ROUND</type>
+      <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
+      <layer>_1</layer>
+    </org.diylc.components.connectivity.SolderPad>
+    <org.diylc.components.connectivity.SolderPad>
+      <name>Pad8</name>
+      <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
+      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <point x="9.4" y="3.0"/>
+      <type>ROUND</type>
+      <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
+      <layer>_1</layer>
+    </org.diylc.components.connectivity.SolderPad>
+    <org.diylc.components.connectivity.SolderPad>
+      <name>Pad9</name>
+      <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
+      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <point x="9.4" y="4.4"/>
+      <type>ROUND</type>
+      <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
+      <layer>_1</layer>
+    </org.diylc.components.connectivity.SolderPad>
+    <org.diylc.components.connectivity.Line>
+      <name>LN89</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="12.8" y="0.4"/>
+        <java.awt.Point x="13.1" y="0.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.misc.GroundSymbol>
+      <name>GND5</name>
+      <point x="10.8" y="2.3"/>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <size reference="../../org.diylc.components.misc.GroundSymbol/size"/>
+      <type>DEFAULT</type>
+    </org.diylc.components.misc.GroundSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN92</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="10.8" y="2.3"/>
+        <java.awt.Point x="10.8" y="2.2"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN94</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="10.8" y="2.2"/>
+        <java.awt.Point x="10.7" y="2.2"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <labelColor reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.tube.TriodeSymbol/color"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.SolderPad>
+      <name>Pad10</name>
+      <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
+      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <point x="10.6" y="2.9"/>
+      <type>ROUND</type>
+      <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
+      <layer>_1</layer>
+    </org.diylc.components.connectivity.SolderPad>
+    <org.diylc.components.connectivity.SolderPad>
+      <name>Pad11</name>
+      <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
+      <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
+      <point x="10.6" y="1.5"/>
+      <type>ROUND</type>
+      <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
+      <layer>_1</layer>
+    </org.diylc.components.connectivity.SolderPad>
+  </components>
+  <groups/>
+  <lockedLayers/>
+  <hiddenLayers/>
+  <font>
+    <attributes>
+      <entry>
+        <awt-text-attribute>size</awt-text-attribute>
+        <float>14.0</float>
+      </entry>
+      <entry>
+        <awt-text-attribute>transform</awt-text-attribute>
+        <null/>
+      </entry>
+      <entry>
+        <awt-text-attribute>tracking</awt-text-attribute>
+        <null/>
+      </entry>
+      <entry>
+        <awt-text-attribute>posture</awt-text-attribute>
+        <null/>
+      </entry>
+      <entry>
+        <awt-text-attribute>width</awt-text-attribute>
+        <null/>
+      </entry>
+      <entry>
+        <awt-text-attribute>superscript</awt-text-attribute>
+        <null/>
+      </entry>
+      <entry>
+        <awt-text-attribute>family</awt-text-attribute>
+        <string>Tahoma</string>
+      </entry>
+      <entry>
+        <awt-text-attribute>weight</awt-text-attribute>
+        <null/>
+      </entry>
+    </attributes>
+  </font>
+</org.diylc.core.Project>
