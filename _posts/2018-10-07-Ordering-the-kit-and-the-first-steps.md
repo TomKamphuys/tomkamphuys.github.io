@@ -30,5 +30,10 @@ Might check if ToneFactory can get a hi-res version, as they might get the kit t
 
 New turretboard is currently rough, but the plan is it will be updated in the future. Also updated layout, links and images of this blog. Also posted it to http://tomkamphuys.github.io .
 
-**Wednesday 10-10-2018**: Started a [thread](http://www.tdpri.com/threads/jtm45-build.881258/) at TDPRI. Started a [schematic](/assets/SchematicNew.diy) in DIYLC (not ready yet...).
-![schematic](/assets/schematicNew.png)
+**Wednesday 10-10-2018**: Started a [thread](http://www.tdpri.com/threads/jtm45-build.881258/) at TDPRI. Started a schematic.
+
+**Thursday 11-10-2018**: Band practice.
+
+**Friday 12-10-2018**: Finished first iteration of schematic.
+
+**Saturday 13-10-2018**: Received the parts from ToneFactory and installed them. Bias circuit etc. added to schematic.
