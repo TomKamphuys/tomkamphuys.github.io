@@ -37,3 +37,21 @@ New turretboard is currently rough, but the plan is it will be updated in the fu
 **Friday 12-10-2018**: Finished first iteration of schematic.
 
 **Saturday 13-10-2018**: Received the parts from ToneFactory and installed them. Bias circuit etc. added to schematic.
+
+**Sunday 14-10-2018**: As I will be using a multiple star grounding scheme (as described in Blencowe's book), which is different from the manual, I was looking around where I should put the safety-earth. I found no hole for a dedicated screw close to the mains inlet, so I will have to drill that.
+
+I found that the input tube sockets were loose in their chassis mount. They were the shielded version, which I choose for (possible) lower noise. Three chassis clamps without a shield were also supplied and these did clamp the sockets tightly to the chassis.
+![pre-amp tube socket](/assets/Photos/pre-ampTubeSocket.jpg)
+
+Also the output tube sockets were loose. These have small metal parts that clamp the ceramic socket to the metal chassis mount, which I tightened with a long nose plier.
+![output tube socket tightening](/assets/Photos/TubeSocketTightening.jpg)
+
+Looking for resistors.
+
+- Metal film
+    - Vishay CPF1 1W, 250V, 1%
+    - Vishay CPF2 2W, 350V, 1%
+    - Vishay CPF3 3W, 500V, 1%
+    - Vishay CCF60 1W, 500V, 1%
+    - Vishay PR03 3W, 750V, 5% (probably). I think these are suitable for the plate load resistors and cathode follower cathode resistor. They need high power and voltage spec (see e.g. [Aiken](http://aikenamps.com/index.php/technical-q-a)), tolerance is not that important.
+    - Yageo FMP200 2W, 500V, 1%

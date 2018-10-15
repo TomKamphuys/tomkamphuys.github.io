@@ -5285,7 +5285,7 @@
       <flipStanding>false</flipStanding>
       <labelPosition>ABOVE</labelPosition>
       <value>
-        <value>180.0</value>
+        <value>120.0</value>
         <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
       </value>
       <power>HALF</power>
@@ -5657,11 +5657,15 @@
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>size</awt-text-attribute>
-            <float>14.0</float>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -5677,30 +5681,15 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>superscript</awt-text-attribute>
-            <null/>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
           </entry>
           <entry>
-            <awt-text-attribute>family</awt-text-attribute>
-            <string>Tahoma</string>
-          </entry>
-          <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
       </font>
-      <color reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
-      <center>false</center>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </org.diylc.components.misc.Label>
-    <org.diylc.components.misc.Label>
-      <name>L14</name>
-      <point x="0.0" y="0.0"/>
-      <text>Double click to edit text</text>
-      <font reference="../../org.diylc.components.misc.Label/font"/>
       <color reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
       <center>false</center>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -5747,11 +5736,15 @@
   <font>
     <attributes>
       <entry>
-        <awt-text-attribute>size</awt-text-attribute>
-        <float>14.0</float>
+        <awt-text-attribute>weight</awt-text-attribute>
+        <null/>
       </entry>
       <entry>
-        <awt-text-attribute>transform</awt-text-attribute>
+        <awt-text-attribute>family</awt-text-attribute>
+        <string>Tahoma</string>
+      </entry>
+      <entry>
+        <awt-text-attribute>superscript</awt-text-attribute>
         <null/>
       </entry>
       <entry>
@@ -5767,15 +5760,11 @@
         <null/>
       </entry>
       <entry>
-        <awt-text-attribute>superscript</awt-text-attribute>
-        <null/>
+        <awt-text-attribute>size</awt-text-attribute>
+        <float>14.0</float>
       </entry>
       <entry>
-        <awt-text-attribute>family</awt-text-attribute>
-        <string>Tahoma</string>
-      </entry>
-      <entry>
-        <awt-text-attribute>weight</awt-text-attribute>
+        <awt-text-attribute>transform</awt-text-attribute>
         <null/>
       </entry>
     </attributes>

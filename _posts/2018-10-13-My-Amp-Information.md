@@ -11,3 +11,7 @@ categories: Amp
 
 ![Schematic PNG](/assets/SchematicNew.png)
 
+[Parts List](/assets/PartList.xslx)
+
+[Additional Parts List](/assets/AdditionalParts.xlsx)
+
