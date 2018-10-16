@@ -54,4 +54,8 @@ Looking for resistors.
     - Vishay CPF3 3W, 500V, 1%
     - Vishay CCF60 1W, 500V, 1%
     - Vishay PR03 3W, 750V, 5% (probably). I think these are suitable for the plate load resistors and cathode follower cathode resistor. They need high power and voltage spec (see e.g. [Aiken](http://aikenamps.com/index.php/technical-q-a)), tolerance is not that important.
+    - Vishay CMF70 1.75W, 500V, 1%, 0.1uV/V
     - Yageo FMP200 2W, 500V, 1%
+    - Royal Ohm MF200, 2W, 500V, 1%
+
+**Tuesday 16-10-2018**: Started a [thread](http://www.tdpri.com/threads/humdinger-physical-location.882729/) to get some info about the humdinger placement. Decided to go with the fender chassis mount pots. ToneFactory has both the [bias](https://www.tonefactory.nl/cts-10k-linear-bias) and [humdinger](https://www.tonefactory.nl/fender-potmeter-hum-controll-100r) pot. Then order the [higher voltage elco](https://www.tonefactory.nl/f-t-15-f-at-500-volt) as well. For resistors Das Musikding seems best.

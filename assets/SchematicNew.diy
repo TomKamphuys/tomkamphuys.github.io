@@ -2022,7 +2022,7 @@
       <name>LN103</name>
       <alpha>127</alpha>
       <points>
-        <java.awt.Point x="8.3" y="4.5"/>
+        <java.awt.Point x="8.0" y="4.5"/>
         <java.awt.Point x="7.0" y="4.5"/>
       </points>
       <bodyColor reference="../../org.diylc.components.shapes.Rectangle/color"/>
@@ -2113,11 +2113,11 @@
     </org.diylc.components.passive.ResistorSymbol>
     <org.diylc.components.passive.PotentiometerSymbol>
       <name>VR4</name>
-      <value>5k</value>
+      <value>0</value>
       <controlPoints>
-        <java.awt.Point x="8.3" y="3.9"/>
-        <java.awt.Point x="8.5" y="3.7"/>
-        <java.awt.Point x="8.5" y="4.1"/>
+        <java.awt.Point x="8.0" y="4.3"/>
+        <java.awt.Point x="8.2" y="4.1"/>
+        <java.awt.Point x="8.2" y="4.5"/>
       </controlPoints>
       <color>
         <red>0</red>
@@ -2135,8 +2135,8 @@
       <length reference="../../org.diylc.components.passive.CapacitorSymbol/length"/>
       <width reference="../../org.diylc.components.passive.CapacitorSymbol/width"/>
       <points>
-        <java.awt.Point x="8.3" y="3.9"/>
-        <java.awt.Point x="8.3" y="4.5"/>
+        <java.awt.Point x="8.2" y="3.8"/>
+        <java.awt.Point x="8.2" y="4.1"/>
       </points>
       <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
       <labelColor reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
@@ -2145,7 +2145,7 @@
       <flipStanding>false</flipStanding>
       <labelPosition>ABOVE</labelPosition>
       <value>
-        <value>100.0</value>
+        <value>0.0</value>
         <unit class="org.diylc.core.measures.CapacitanceUnit">nF</unit>
       </value>
       <voltage>_63V</voltage>
@@ -2156,25 +2156,10 @@
       <polarized>false</polarized>
     </org.diylc.components.passive.CapacitorSymbol>
     <org.diylc.components.connectivity.Line>
-      <name>LN102</name>
-      <alpha>127</alpha>
-      <points>
-        <java.awt.Point x="8.5" y="4.1"/>
-        <java.awt.Point x="8.5" y="4.5"/>
-      </points>
-      <bodyColor reference="../../org.diylc.components.shapes.Rectangle/color"/>
-      <borderColor reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
-      <labelColor reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
-      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <color reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
-    </org.diylc.components.connectivity.Line>
-    <org.diylc.components.connectivity.Line>
       <name>LN107</name>
       <alpha>127</alpha>
       <points>
-        <java.awt.Point x="8.3" y="4.5"/>
+        <java.awt.Point x="8.0" y="4.5"/>
         <java.awt.Point x="8.5" y="4.5"/>
       </points>
       <bodyColor reference="../../org.diylc.components.shapes.Rectangle/color"/>
@@ -2534,7 +2519,7 @@
       <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
       <points>
         <java.awt.Point x="8.1" y="0.4"/>
-        <java.awt.Point x="8.1" y="1.7"/>
+        <java.awt.Point x="8.1" y="1.6"/>
       </points>
       <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
       <labelColor reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
@@ -2556,7 +2541,7 @@
       <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
       <points>
         <java.awt.Point x="8.9" y="0.4"/>
-        <java.awt.Point x="8.9" y="1.3"/>
+        <java.awt.Point x="8.9" y="1.6"/>
       </points>
       <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
       <labelColor reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
@@ -2660,21 +2645,6 @@
       <points>
         <java.awt.Point x="8.1" y="1.7"/>
         <java.awt.Point x="8.1" y="1.6"/>
-      </points>
-      <bodyColor reference="../../org.diylc.components.shapes.Rectangle/color"/>
-      <borderColor reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
-      <labelColor reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
-      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <color reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
-    </org.diylc.components.connectivity.Line>
-    <org.diylc.components.connectivity.Line>
-      <name>LN119</name>
-      <alpha>127</alpha>
-      <points>
-        <java.awt.Point x="8.9" y="1.3"/>
-        <java.awt.Point x="8.9" y="1.6"/>
       </points>
       <bodyColor reference="../../org.diylc.components.shapes.Rectangle/color"/>
       <borderColor reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
@@ -3452,88 +3422,11 @@
       <flipStanding>false</flipStanding>
       <color reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
     </org.diylc.components.connectivity.Line>
-    <org.diylc.components.passive.TransformerCoil>
-      <name>L4</name>
-      <controlPoints>
-        <java.awt.Point x="12.4" y="0.4"/>
-        <java.awt.Point x="12.6" y="0.4"/>
-      </controlPoints>
-      <orientation>_270</orientation>
-      <color reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
-      <tapSpacing reference="../../org.diylc.components.passive.TransformerCoil/tapSpacing"/>
-      <body>
-        <java.awt.geom.GeneralPath serialization="custom">
-          <unserializable-parents/>
-          <java.awt.geom.Path2D_-Float>
-            <default/>
-            <byte>48</byte>
-            <int>4</int>
-            <int>8</int>
-            <byte>1</byte>
-            <byte>64</byte>
-            <float>2480.0</float>
-            <float>80.0</float>
-            <byte>65</byte>
-            <float>2480.0</float>
-            <float>55.0</float>
-            <byte>64</byte>
-            <float>2520.0</float>
-            <float>80.0</float>
-            <byte>65</byte>
-            <float>2520.0</float>
-            <float>55.0</float>
-            <byte>97</byte>
-          </java.awt.geom.Path2D_-Float>
-        </java.awt.geom.GeneralPath>
-        <java.awt.geom.GeneralPath serialization="custom">
-          <unserializable-parents/>
-          <java.awt.geom.Path2D_-Float>
-            <default/>
-            <byte>48</byte>
-            <int>5</int>
-            <int>26</int>
-            <byte>1</byte>
-            <byte>64</byte>
-            <float>2480.0</float>
-            <float>55.0</float>
-            <byte>67</byte>
-            <float>2480.0</float>
-            <float>45.0</float>
-            <float>2490.0</float>
-            <float>45.0</float>
-            <float>2490.0</float>
-            <float>55.0</float>
-            <byte>67</byte>
-            <float>2490.0</float>
-            <float>45.0</float>
-            <float>2500.0</float>
-            <float>45.0</float>
-            <float>2500.0</float>
-            <float>55.0</float>
-            <byte>67</byte>
-            <float>2500.0</float>
-            <float>45.0</float>
-            <float>2510.0</float>
-            <float>45.0</float>
-            <float>2510.0</float>
-            <float>55.0</float>
-            <byte>67</byte>
-            <float>2510.0</float>
-            <float>45.0</float>
-            <float>2520.0</float>
-            <float>45.0</float>
-            <float>2520.0</float>
-            <float>55.0</float>
-            <byte>97</byte>
-          </java.awt.geom.Path2D_-Float>
-        </java.awt.geom.GeneralPath>
-      </body>
-    </org.diylc.components.passive.TransformerCoil>
     <org.diylc.components.passive.TransformerCore>
       <name>T2</name>
       <controlPoints>
-        <java.awt.Point x="12.4" y="0.2"/>
-        <java.awt.Point x="12.6" y="0.2"/>
+        <java.awt.Point x="12.2" y="0.3"/>
+        <java.awt.Point x="12.5" y="0.3"/>
       </controlPoints>
       <color reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
     </org.diylc.components.passive.TransformerCore>
@@ -3958,21 +3851,6 @@
       <points>
         <java.awt.Point x="10.1" y="0.4"/>
         <java.awt.Point x="12.1" y="0.4"/>
-      </points>
-      <bodyColor reference="../../org.diylc.components.shapes.Rectangle/color"/>
-      <borderColor reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
-      <labelColor reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
-      <leadColor reference="../../org.diylc.components.connectivity.Line/leadColor"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <color reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
-    </org.diylc.components.connectivity.Line>
-    <org.diylc.components.connectivity.Line>
-      <name>LN72</name>
-      <alpha>127</alpha>
-      <points>
-        <java.awt.Point x="12.1" y="0.4"/>
-        <java.awt.Point x="12.4" y="0.4"/>
       </points>
       <bodyColor reference="../../org.diylc.components.shapes.Rectangle/color"/>
       <borderColor reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
@@ -5650,6 +5528,39 @@
       <size reference="../../org.diylc.components.misc.GroundSymbol/size"/>
       <type>DEFAULT</type>
     </org.diylc.components.misc.GroundSymbol>
+    <org.diylc.components.passive.InductorSymbol>
+      <name>L14</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.3</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </length>
+      <width>
+        <value>0.08</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </width>
+      <points>
+        <java.awt.Point x="12.1" y="0.4"/>
+        <java.awt.Point x="12.6" y="0.4"/>
+      </points>
+      <borderColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </labelColor>
+      <leadColor reference="../labelColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>BELOW</labelPosition>
+      <core>false</core>
+    </org.diylc.components.passive.InductorSymbol>
     <org.diylc.components.misc.Label>
       <name>L12</name>
       <point x="8.5" y="6.5"/>
@@ -5657,23 +5568,7 @@
       <font>
         <attributes>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
-            <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>family</awt-text-attribute>
-            <string>Tahoma</string>
-          </entry>
-          <entry>
-            <awt-text-attribute>superscript</awt-text-attribute>
-            <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
-            <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -5685,7 +5580,23 @@
             <float>14.0</float>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -5729,6 +5640,73 @@
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
     </org.diylc.components.misc.Label>
+    <org.diylc.components.passive.ResistorSymbol>
+      <name>R40</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.passive.ResistorSymbol[4]/length"/>
+      <width reference="../../org.diylc.components.passive.ResistorSymbol[4]/width"/>
+      <points>
+        <java.awt.Point x="8.5" y="3.7"/>
+        <java.awt.Point x="8.5" y="4.5"/>
+      </points>
+      <borderColor reference="../../org.diylc.components.passive.ResistorSymbol/borderColor"/>
+      <labelColor reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
+      <leadColor reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelPosition>ABOVE</labelPosition>
+      <value>
+        <value>5.0</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <powerNew reference="../../org.diylc.components.passive.ResistorSymbol[4]/powerNew"/>
+    </org.diylc.components.passive.ResistorSymbol>
+    <org.diylc.components.connectivity.Line>
+      <name>LN72</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.2" y="3.8"/>
+        <java.awt.Point x="8.5" y="3.8"/>
+      </points>
+      <bodyColor>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor reference="../borderColor"/>
+      <leadColor>
+        <red>204</red>
+        <green>204</green>
+        <blue>204</blue>
+        <alpha>255</alpha>
+      </leadColor>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../borderColor"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN102</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="8.0" y="4.3"/>
+        <java.awt.Point x="8.0" y="4.5"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line[162]/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.Line[162]/borderColor"/>
+      <labelColor reference="../../org.diylc.components.connectivity.Line[162]/borderColor"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line[162]/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.connectivity.Line[162]/borderColor"/>
+    </org.diylc.components.connectivity.Line>
   </components>
   <groups/>
   <lockedLayers/>
@@ -5736,23 +5714,7 @@
   <font>
     <attributes>
       <entry>
-        <awt-text-attribute>weight</awt-text-attribute>
-        <null/>
-      </entry>
-      <entry>
-        <awt-text-attribute>family</awt-text-attribute>
-        <string>Tahoma</string>
-      </entry>
-      <entry>
-        <awt-text-attribute>superscript</awt-text-attribute>
-        <null/>
-      </entry>
-      <entry>
-        <awt-text-attribute>tracking</awt-text-attribute>
-        <null/>
-      </entry>
-      <entry>
-        <awt-text-attribute>posture</awt-text-attribute>
+        <awt-text-attribute>transform</awt-text-attribute>
         <null/>
       </entry>
       <entry>
@@ -5764,7 +5726,23 @@
         <float>14.0</float>
       </entry>
       <entry>
-        <awt-text-attribute>transform</awt-text-attribute>
+        <awt-text-attribute>posture</awt-text-attribute>
+        <null/>
+      </entry>
+      <entry>
+        <awt-text-attribute>tracking</awt-text-attribute>
+        <null/>
+      </entry>
+      <entry>
+        <awt-text-attribute>superscript</awt-text-attribute>
+        <null/>
+      </entry>
+      <entry>
+        <awt-text-attribute>family</awt-text-attribute>
+        <string>Tahoma</string>
+      </entry>
+      <entry>
+        <awt-text-attribute>weight</awt-text-attribute>
         <null/>
       </entry>
     </attributes>
