@@ -3325,7 +3325,7 @@
       <alpha>127</alpha>
       <points>
         <java.awt.Point x="12.0" y="1.7"/>
-        <java.awt.Point x="12.0" y="0.4"/>
+        <java.awt.Point x="12.0" y="1.1"/>
       </points>
       <bodyColor reference="../../org.diylc.components.shapes.Rectangle/color"/>
       <borderColor reference="../../org.diylc.components.shapes.Rectangle/borderColor"/>
@@ -3913,7 +3913,7 @@
       <name>Pad4</name>
       <size reference="../../org.diylc.components.connectivity.SolderPad/size"/>
       <color reference="../../org.diylc.components.connectivity.SolderPad/color"/>
-      <point x="12.1" y="0.7"/>
+      <point x="12.2" y="1.0"/>
       <type>ROUND</type>
       <holeSize reference="../../org.diylc.components.connectivity.SolderPad/holeSize"/>
       <layer>_1</layer>
@@ -5556,23 +5556,11 @@
       <font>
         <attributes>
           <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
             <awt-text-attribute>tracking</awt-text-attribute>
-            <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>family</awt-text-attribute>
-            <string>Tahoma</string>
-          </entry>
-          <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
-            <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>posture</awt-text-attribute>
-            <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -5580,12 +5568,24 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>width</awt-text-attribute>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
           </entry>
           <entry>
             <awt-text-attribute>size</awt-text-attribute>
             <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
           </entry>
         </attributes>
       </font>
@@ -5905,6 +5905,51 @@
       <flipStanding>false</flipStanding>
       <color reference="../borderColor"/>
     </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN171</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="12.0" y="1.1"/>
+        <java.awt.Point x="12.6" y="1.1"/>
+      </points>
+      <bodyColor>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor reference="../borderColor"/>
+      <leadColor>
+        <red>204</red>
+        <green>204</green>
+        <blue>204</blue>
+        <alpha>255</alpha>
+      </leadColor>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../borderColor"/>
+    </org.diylc.components.connectivity.Line>
+    <org.diylc.components.connectivity.Line>
+      <name>LN172</name>
+      <alpha>127</alpha>
+      <points>
+        <java.awt.Point x="12.6" y="1.1"/>
+        <java.awt.Point x="12.6" y="0.4"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.connectivity.Line[171]/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.Line[171]/borderColor"/>
+      <labelColor reference="../../org.diylc.components.connectivity.Line[171]/borderColor"/>
+      <leadColor reference="../../org.diylc.components.connectivity.Line[171]/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <color reference="../../org.diylc.components.connectivity.Line[171]/borderColor"/>
+    </org.diylc.components.connectivity.Line>
   </components>
   <groups/>
   <lockedLayers/>
@@ -5912,23 +5957,11 @@
   <font>
     <attributes>
       <entry>
+        <awt-text-attribute>width</awt-text-attribute>
+        <null/>
+      </entry>
+      <entry>
         <awt-text-attribute>tracking</awt-text-attribute>
-        <null/>
-      </entry>
-      <entry>
-        <awt-text-attribute>family</awt-text-attribute>
-        <string>Tahoma</string>
-      </entry>
-      <entry>
-        <awt-text-attribute>transform</awt-text-attribute>
-        <null/>
-      </entry>
-      <entry>
-        <awt-text-attribute>posture</awt-text-attribute>
-        <null/>
-      </entry>
-      <entry>
-        <awt-text-attribute>weight</awt-text-attribute>
         <null/>
       </entry>
       <entry>
@@ -5936,12 +5969,24 @@
         <null/>
       </entry>
       <entry>
-        <awt-text-attribute>width</awt-text-attribute>
+        <awt-text-attribute>posture</awt-text-attribute>
+        <null/>
+      </entry>
+      <entry>
+        <awt-text-attribute>transform</awt-text-attribute>
         <null/>
       </entry>
       <entry>
         <awt-text-attribute>size</awt-text-attribute>
         <float>14.0</float>
+      </entry>
+      <entry>
+        <awt-text-attribute>family</awt-text-attribute>
+        <string>Tahoma</string>
+      </entry>
+      <entry>
+        <awt-text-attribute>weight</awt-text-attribute>
+        <null/>
       </entry>
     </attributes>
   </font>
