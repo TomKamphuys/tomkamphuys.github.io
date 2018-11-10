@@ -858,9 +858,9 @@
         <java.awt.Point x="10.305" y="5.88"/>
       </controlPoints>
       <color>
-        <red>255</red>
+        <red>0</red>
         <green>0</green>
-        <blue>0</blue>
+        <blue>255</blue>
         <alpha>255</alpha>
       </color>
       <pointCount>FOUR</pointCount>
@@ -1417,9 +1417,9 @@
         <java.awt.Point x="10.25" y="7.245"/>
       </controlPoints>
       <color>
-        <red>255</red>
+        <red>0</red>
         <green>0</green>
-        <blue>0</blue>
+        <blue>255</blue>
         <alpha>255</alpha>
       </color>
       <pointCount>FOUR</pointCount>
@@ -3361,7 +3361,7 @@
       <controlPoints>
         <java.awt.Point x="12.635" y="1.615"/>
         <java.awt.Point x="15.205" y="2.375"/>
-        <java.awt.Point x="14.505" y="10.375"/>
+        <java.awt.Point x="14.99" y="7.84"/>
         <java.awt.Point x="12.305" y="7.575"/>
       </controlPoints>
       <color>
@@ -3742,6 +3742,10 @@
             <float>14.0</float>
           </entry>
           <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+          <entry>
             <awt-text-attribute>posture</awt-text-attribute>
             <null/>
           </entry>
@@ -3750,15 +3754,11 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>transform</awt-text-attribute>
-            <null/>
-          </entry>
-          <entry>
             <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>tracking</awt-text-attribute>
+            <awt-text-attribute>transform</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -3766,8 +3766,8 @@
             <null/>
           </entry>
           <entry>
-            <awt-text-attribute>family</awt-text-attribute>
-            <string>Tahoma</string>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
           </entry>
         </attributes>
       </font>
@@ -4030,24 +4030,6 @@
       <flipStanding>false</flipStanding>
     </org.diylc.components.connectivity.Jumper>
     <org.diylc.components.semiconductors.DiodePlastic>
-      <name>D3</name>
-      <alpha>127</alpha>
-      <length reference="../../org.diylc.components.semiconductors.DiodePlastic/length"/>
-      <width reference="../../org.diylc.components.semiconductors.DiodePlastic/width"/>
-      <points>
-        <java.awt.Point x="1.025" y="6.6"/>
-        <java.awt.Point x="0.83" y="6.41"/>
-      </points>
-      <bodyColor reference="../../org.diylc.components.semiconductors.DiodePlastic/bodyColor"/>
-      <borderColor reference="../../org.diylc.components.semiconductors.DiodePlastic/borderColor"/>
-      <labelColor reference="../../org.diylc.components.connectivity.Jumper/bodyColor"/>
-      <leadColor reference="../../org.diylc.components.passive.RadialCeramicDiskCapacitor/leadColor"/>
-      <display>NAME</display>
-      <flipStanding>false</flipStanding>
-      <value></value>
-      <markerColor reference="../../org.diylc.components.semiconductors.DiodePlastic/markerColor"/>
-    </org.diylc.components.semiconductors.DiodePlastic>
-    <org.diylc.components.semiconductors.DiodePlastic>
       <name>D2</name>
       <alpha>127</alpha>
       <length reference="../../org.diylc.components.semiconductors.DiodePlastic/length"/>
@@ -4069,9 +4051,9 @@
       <name>W44</name>
       <alpha>127</alpha>
       <controlPoints>
-        <java.awt.Point x="2.42" y="4.06"/>
-        <java.awt.Point x="2.26" y="4.475"/>
-        <java.awt.Point x="0.8" y="6.495"/>
+        <java.awt.Point x="1.605" y="3.08"/>
+        <java.awt.Point x="0.215" y="1.88"/>
+        <java.awt.Point x="0.015" y="6.39"/>
         <java.awt.Point x="1.025" y="6.605"/>
       </controlPoints>
       <color>
@@ -4087,9 +4069,9 @@
       <name>W45</name>
       <alpha>127</alpha>
       <controlPoints>
-        <java.awt.Point x="1.995" y="4.065"/>
-        <java.awt.Point x="2.395" y="4.285"/>
-        <java.awt.Point x="0.87" y="6.565"/>
+        <java.awt.Point x="1.235" y="3.055"/>
+        <java.awt.Point x="0.025" y="2.255"/>
+        <java.awt.Point x="0.01" y="5.915"/>
         <java.awt.Point x="0.575" y="6.4"/>
       </controlPoints>
       <color>
@@ -4138,9 +4120,9 @@
       <name>W46</name>
       <alpha>127</alpha>
       <controlPoints>
-        <java.awt.Point x="2.21" y="4.065"/>
-        <java.awt.Point x="1.96" y="4.985"/>
-        <java.awt.Point x="3.125" y="3.98"/>
+        <java.awt.Point x="1.42" y="3.06"/>
+        <java.awt.Point x="2.075" y="2.66"/>
+        <java.awt.Point x="3.09" y="2.91"/>
         <java.awt.Point x="2.97" y="3.185"/>
       </controlPoints>
       <color>
@@ -4188,7 +4170,7 @@
         <java.awt.Point x="0.54" y="1.22"/>
         <java.awt.Point x="0.73" y="1.905"/>
         <java.awt.Point x="0.965" y="2.275"/>
-        <java.awt.Point x="1.64" y="3.055"/>
+        <java.awt.Point x="1.84" y="3.065"/>
       </controlPoints>
       <color>
         <red>255</red>
@@ -4260,7 +4242,7 @@
       <name>W49</name>
       <alpha>127</alpha>
       <controlPoints>
-        <java.awt.Point x="2.195" y="3.055"/>
+        <java.awt.Point x="2.01" y="3.05"/>
         <java.awt.Point x="0.035" y="0.17"/>
         <java.awt.Point x="0.055" y="9.16"/>
         <java.awt.Point x="2.05" y="8.29"/>
@@ -4336,7 +4318,7 @@
     </org.diylc.components.passive.PotentiometerPanel>
     <org.diylc.components.misc.Label>
       <name>L4</name>
-      <point x="1.25" y="3.165"/>
+      <point x="1.355" y="3.99"/>
       <text>5</text>
       <font reference="../../org.diylc.components.misc.Label/font"/>
       <color reference="../../org.diylc.components.shapes.Ellipse/borderColor"/>
@@ -4347,7 +4329,7 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L5</name>
-      <point x="1.445" y="3.165"/>
+      <point x="1.63" y="4.005"/>
       <text>0</text>
       <font reference="../../org.diylc.components.misc.Label/font"/>
       <color reference="../../org.diylc.components.shapes.Ellipse/borderColor"/>
@@ -4358,7 +4340,7 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L6</name>
-      <point x="1.645" y="3.185"/>
+      <point x="1.865" y="3.2"/>
       <text>230V</text>
       <font reference="../../org.diylc.components.misc.Label/font"/>
       <color reference="../../org.diylc.components.shapes.Ellipse/borderColor"/>
@@ -4368,30 +4350,8 @@
       <orientation>_270</orientation>
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
-      <name>L7</name>
-      <point x="1.83" y="3.19"/>
-      <text>120V</text>
-      <font reference="../../org.diylc.components.misc.Label/font"/>
-      <color reference="../../org.diylc.components.shapes.Ellipse/borderColor"/>
-      <center>false</center>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>_270</orientation>
-    </org.diylc.components.misc.Label>
-    <org.diylc.components.misc.Label>
-      <name>L8</name>
-      <point x="2.005" y="3.19"/>
-      <text>100V</text>
-      <font reference="../../org.diylc.components.misc.Label/font"/>
-      <color reference="../../org.diylc.components.shapes.Ellipse/borderColor"/>
-      <center>false</center>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>_270</orientation>
-    </org.diylc.components.misc.Label>
-    <org.diylc.components.misc.Label>
       <name>L9</name>
-      <point x="2.185" y="3.145"/>
+      <point x="2.015" y="3.18"/>
       <text>0</text>
       <font reference="../../org.diylc.components.misc.Label/font"/>
       <color reference="../../org.diylc.components.shapes.Ellipse/borderColor"/>
@@ -4413,7 +4373,7 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L11</name>
-      <point x="1.245" y="3.945"/>
+      <point x="1.995" y="3.94"/>
       <text>3.15V</text>
       <font reference="../../org.diylc.components.misc.Label/font"/>
       <color reference="../../org.diylc.components.shapes.Ellipse/borderColor"/>
@@ -4424,7 +4384,7 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L12</name>
-      <point x="1.425" y="4.015"/>
+      <point x="2.185" y="4.02"/>
       <text>0</text>
       <font reference="../../org.diylc.components.misc.Label/font"/>
       <color reference="../../org.diylc.components.shapes.Ellipse/borderColor"/>
@@ -4435,7 +4395,7 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L13</name>
-      <point x="1.585" y="3.945"/>
+      <point x="2.37" y="3.94"/>
       <text>3.15V</text>
       <font reference="../../org.diylc.components.misc.Label/font"/>
       <color reference="../../org.diylc.components.shapes.Ellipse/borderColor"/>
@@ -4446,7 +4406,7 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
       <name>L14</name>
-      <point x="1.995" y="3.925"/>
+      <point x="1.24" y="3.205"/>
       <text>350V</text>
       <font reference="../../org.diylc.components.misc.Label/font"/>
       <color reference="../../org.diylc.components.shapes.Ellipse/borderColor"/>
@@ -4456,19 +4416,8 @@
       <orientation>_270</orientation>
     </org.diylc.components.misc.Label>
     <org.diylc.components.misc.Label>
-      <name>L15</name>
-      <point x="2.21" y="3.985"/>
-      <text>0</text>
-      <font reference="../../org.diylc.components.misc.Label/font"/>
-      <color reference="../../org.diylc.components.shapes.Ellipse/borderColor"/>
-      <center>false</center>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>_270</orientation>
-    </org.diylc.components.misc.Label>
-    <org.diylc.components.misc.Label>
       <name>L16</name>
-      <point x="2.415" y="3.935"/>
+      <point x="1.62" y="3.215"/>
       <text>350V</text>
       <font reference="../../org.diylc.components.misc.Label/font"/>
       <color reference="../../org.diylc.components.shapes.Ellipse/borderColor"/>
@@ -4481,10 +4430,10 @@
       <name>W62</name>
       <alpha>127</alpha>
       <controlPoints>
-        <java.awt.Point x="1.42" y="4.42"/>
-        <java.awt.Point x="1.425" y="4.165"/>
-        <java.awt.Point x="1.145" y="4.19"/>
-        <java.awt.Point x="1.125" y="4.295"/>
+        <java.awt.Point x="2.18" y="4.465"/>
+        <java.awt.Point x="2.16" y="4.375"/>
+        <java.awt.Point x="2.32" y="4.245"/>
+        <java.awt.Point x="2.08" y="4.21"/>
       </controlPoints>
       <color>
         <red>0</red>
@@ -4499,10 +4448,10 @@
       <name>W63</name>
       <alpha>127</alpha>
       <controlPoints>
-        <java.awt.Point x="1.245" y="4.06"/>
-        <java.awt.Point x="1.245" y="4.18"/>
-        <java.awt.Point x="1.23" y="4.28"/>
-        <java.awt.Point x="1.28" y="4.415"/>
+        <java.awt.Point x="1.975" y="4.075"/>
+        <java.awt.Point x="1.955" y="4.14"/>
+        <java.awt.Point x="1.88" y="4.34"/>
+        <java.awt.Point x="2.04" y="4.46"/>
       </controlPoints>
       <color>
         <red>0</red>
@@ -4517,10 +4466,10 @@
       <name>W64</name>
       <alpha>127</alpha>
       <controlPoints>
-        <java.awt.Point x="1.59" y="4.06"/>
-        <java.awt.Point x="1.585" y="4.16"/>
-        <java.awt.Point x="1.555" y="4.27"/>
-        <java.awt.Point x="1.57" y="4.415"/>
+        <java.awt.Point x="2.34" y="4.08"/>
+        <java.awt.Point x="2.395" y="4.21"/>
+        <java.awt.Point x="2.45" y="4.31"/>
+        <java.awt.Point x="2.33" y="4.46"/>
       </controlPoints>
       <color reference="../../org.diylc.components.connectivity.HookupWire[77]/color"/>
       <pointCount>FOUR</pointCount>
@@ -4668,7 +4617,7 @@
     </org.diylc.components.passive.Resistor>
     <org.diylc.components.misc.GroundSymbol>
       <name>GND2</name>
-      <point x="1.12" y="4.29"/>
+      <point x="2.075" y="4.205"/>
       <color reference="../../org.diylc.components.shapes.Ellipse/borderColor"/>
       <size reference="../../org.diylc.components.misc.GroundSymbol/size"/>
       <type>DEFAULT</type>
@@ -5491,9 +5440,9 @@
       <name>Humdinger</name>
       <alpha>127</alpha>
       <controlPoints>
-        <java.awt.Point x="1.57" y="4.42"/>
-        <java.awt.Point x="1.42" y="4.42"/>
-        <java.awt.Point x="1.27" y="4.42"/>
+        <java.awt.Point x="2.33" y="4.465"/>
+        <java.awt.Point x="2.18" y="4.465"/>
+        <java.awt.Point x="2.03" y="4.465"/>
       </controlPoints>
       <resistance>
         <value>100.0</value>
@@ -5685,9 +5634,9 @@
       <name>W35</name>
       <alpha>127</alpha>
       <controlPoints>
-        <java.awt.Point x="1.45" y="3.06"/>
-        <java.awt.Point x="2.015" y="3.325"/>
-        <java.awt.Point x="2.31" y="5.775"/>
+        <java.awt.Point x="1.645" y="4.075"/>
+        <java.awt.Point x="1.66" y="4.87"/>
+        <java.awt.Point x="1.64" y="6.495"/>
         <java.awt.Point x="1.015" y="6.865"/>
       </controlPoints>
       <color>
@@ -5703,8 +5652,8 @@
       <name>W72</name>
       <alpha>127</alpha>
       <controlPoints>
-        <java.awt.Point x="1.24" y="3.06"/>
-        <java.awt.Point x="2.375" y="3.86"/>
+        <java.awt.Point x="1.34" y="4.075"/>
+        <java.awt.Point x="1.51" y="5.01"/>
         <java.awt.Point x="1.82" y="6.62"/>
         <java.awt.Point x="0.565" y="7.045"/>
       </controlPoints>
@@ -5717,36 +5666,59 @@
       <pointCount>FOUR</pointCount>
       <gauge>_22</gauge>
     </org.diylc.components.connectivity.HookupWire>
+    <org.diylc.components.misc.GroundSymbol>
+      <name>GND4</name>
+      <point x="2.625" y="2.56"/>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <size>
+        <value>0.15</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </size>
+      <type>DEFAULT</type>
+    </org.diylc.components.misc.GroundSymbol>
+    <org.diylc.components.connectivity.HookupWire>
+      <name>W77</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="2.625" y="2.555"/>
+        <java.awt.Point x="2.47" y="2.445"/>
+        <java.awt.Point x="2.315" y="2.615"/>
+        <java.awt.Point x="2.415" y="3.055"/>
+      </controlPoints>
+      <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <pointCount>FOUR</pointCount>
+      <gauge>_22</gauge>
+    </org.diylc.components.connectivity.HookupWire>
+    <org.diylc.components.semiconductors.DiodePlastic>
+      <name>D3</name>
+      <alpha>127</alpha>
+      <length reference="../../org.diylc.components.semiconductors.DiodePlastic/length"/>
+      <width reference="../../org.diylc.components.semiconductors.DiodePlastic/width"/>
+      <points>
+        <java.awt.Point x="1.025" y="6.6"/>
+        <java.awt.Point x="0.83" y="6.41"/>
+      </points>
+      <bodyColor reference="../../org.diylc.components.semiconductors.DiodePlastic/bodyColor"/>
+      <borderColor reference="../../org.diylc.components.semiconductors.DiodePlastic/borderColor"/>
+      <labelColor reference="../../org.diylc.components.connectivity.Jumper/bodyColor"/>
+      <leadColor reference="../../org.diylc.components.passive.RadialCeramicDiskCapacitor/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <value></value>
+      <markerColor reference="../../org.diylc.components.semiconductors.DiodePlastic/markerColor"/>
+    </org.diylc.components.semiconductors.DiodePlastic>
   </components>
   <groups>
-    <set>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[3]"/>
-      <org.diylc.components.shapes.Ellipse reference="../../../components/org.diylc.components.shapes.Ellipse"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[2]"/>
-    </set>
-    <set>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[15]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[16]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[13]"/>
-      <org.diylc.components.shapes.Rectangle reference="../../../components/org.diylc.components.shapes.Rectangle"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[11]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[14]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[17]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[21]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[18]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[23]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[22]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[12]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[20]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[19]"/>
-    </set>
-    <set>
-      <org.diylc.components.shapes.Rectangle reference="../../../components/org.diylc.components.shapes.Rectangle[3]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[26]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[27]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[28]"/>
-    </set>
     <set>
       <org.diylc.components.shapes.Rectangle reference="../../../components/org.diylc.components.shapes.Rectangle[2]"/>
       <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[25]"/>
@@ -5761,9 +5733,37 @@
     </set>
     <set>
       <org.diylc.components.shapes.Ellipse reference="../../../components/org.diylc.components.shapes.Ellipse[2]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[5]"/>
       <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[6]"/>
       <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[4]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[5]"/>
+    </set>
+    <set>
+      <org.diylc.components.shapes.Ellipse reference="../../../components/org.diylc.components.shapes.Ellipse"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[2]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[3]"/>
+    </set>
+    <set>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[19]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[23]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[15]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[18]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[12]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[11]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[13]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[17]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[22]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[16]"/>
+      <org.diylc.components.shapes.Rectangle reference="../../../components/org.diylc.components.shapes.Rectangle"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[21]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[20]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[14]"/>
+    </set>
+    <set>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[28]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[26]"/>
+      <org.diylc.components.shapes.Rectangle reference="../../../components/org.diylc.components.shapes.Rectangle[3]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[27]"/>
     </set>
   </groups>
   <lockedLayers/>
@@ -5777,6 +5777,10 @@
         <float>14.0</float>
       </entry>
       <entry>
+        <awt-text-attribute>family</awt-text-attribute>
+        <string>Tahoma</string>
+      </entry>
+      <entry>
         <awt-text-attribute>posture</awt-text-attribute>
         <null/>
       </entry>
@@ -5785,15 +5789,11 @@
         <null/>
       </entry>
       <entry>
-        <awt-text-attribute>transform</awt-text-attribute>
-        <null/>
-      </entry>
-      <entry>
         <awt-text-attribute>weight</awt-text-attribute>
         <null/>
       </entry>
       <entry>
-        <awt-text-attribute>tracking</awt-text-attribute>
+        <awt-text-attribute>transform</awt-text-attribute>
         <null/>
       </entry>
       <entry>
@@ -5801,8 +5801,8 @@
         <null/>
       </entry>
       <entry>
-        <awt-text-attribute>family</awt-text-attribute>
-        <string>Tahoma</string>
+        <awt-text-attribute>tracking</awt-text-attribute>
+        <null/>
       </entry>
     </attributes>
   </font>
