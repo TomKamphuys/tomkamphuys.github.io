@@ -3628,7 +3628,7 @@
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>superscript</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -3637,6 +3637,10 @@
           </entry>
           <entry>
             <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -3649,10 +3653,6 @@
           </entry>
           <entry>
             <awt-text-attribute>transform</awt-text-attribute>
-            <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>superscript</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -4324,7 +4324,7 @@
     </org.diylc.components.misc.Label>
     <org.diylc.components.connectivity.HookupWire>
       <name>W62</name>
-      <alpha>5</alpha>
+      <alpha>127</alpha>
       <controlPoints>
         <java.awt.Point x="2.18" y="4.465"/>
         <java.awt.Point x="2.16" y="4.375"/>
@@ -5521,7 +5521,7 @@
             <string>Tahoma</string>
           </entry>
           <entry>
-            <awt-text-attribute>weight</awt-text-attribute>
+            <awt-text-attribute>superscript</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -5530,6 +5530,10 @@
           </entry>
           <entry>
             <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
             <null/>
           </entry>
           <entry>
@@ -5542,10 +5546,6 @@
           </entry>
           <entry>
             <awt-text-attribute>transform</awt-text-attribute>
-            <null/>
-          </entry>
-          <entry>
-            <awt-text-attribute>superscript</awt-text-attribute>
             <null/>
           </entry>
         </attributes>
@@ -5956,50 +5956,50 @@
   </components>
   <groups>
     <set>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[24]"/>
       <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[25]"/>
       <org.diylc.components.shapes.Rectangle reference="../../../components/org.diylc.components.shapes.Rectangle[2]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[24]"/>
     </set>
     <set>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[26]"/>
-      <org.diylc.components.shapes.Rectangle reference="../../../components/org.diylc.components.shapes.Rectangle[3]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[28]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[27]"/>
-    </set>
-    <set>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[22]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[19]"/>
-      <org.diylc.components.shapes.Rectangle reference="../../../components/org.diylc.components.shapes.Rectangle"/>
       <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[15]"/>
+      <org.diylc.components.shapes.Rectangle reference="../../../components/org.diylc.components.shapes.Rectangle"/>
       <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[16]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[14]"/>
       <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[18]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[23]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[21]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[12]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[20]"/>
       <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[17]"/>
       <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[13]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[20]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[14]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[23]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[12]"/>
       <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[11]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[21]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[22]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[19]"/>
     </set>
     <set>
-      <org.diylc.components.shapes.Ellipse reference="../../../components/org.diylc.components.shapes.Ellipse[2]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[7]"/>
+      <org.diylc.components.shapes.Ellipse reference="../../../components/org.diylc.components.shapes.Ellipse[3]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[10]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[8]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[9]"/>
+    </set>
+    <set>
       <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[4]"/>
+      <org.diylc.components.shapes.Ellipse reference="../../../components/org.diylc.components.shapes.Ellipse[2]"/>
       <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[6]"/>
       <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[5]"/>
     </set>
     <set>
-      <org.diylc.components.shapes.Ellipse reference="../../../components/org.diylc.components.shapes.Ellipse"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[2]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot"/>
       <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[3]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[2]"/>
+      <org.diylc.components.shapes.Ellipse reference="../../../components/org.diylc.components.shapes.Ellipse"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot"/>
     </set>
     <set>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[8]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[9]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[7]"/>
-      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[10]"/>
-      <org.diylc.components.shapes.Ellipse reference="../../../components/org.diylc.components.shapes.Ellipse[3]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[26]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[27]"/>
+      <org.diylc.components.shapes.Rectangle reference="../../../components/org.diylc.components.shapes.Rectangle[3]"/>
+      <org.diylc.components.connectivity.Dot reference="../../../components/org.diylc.components.connectivity.Dot[28]"/>
     </set>
   </groups>
   <lockedLayers/>
@@ -6013,7 +6013,7 @@
         <string>Tahoma</string>
       </entry>
       <entry>
-        <awt-text-attribute>weight</awt-text-attribute>
+        <awt-text-attribute>superscript</awt-text-attribute>
         <null/>
       </entry>
       <entry>
@@ -6022,6 +6022,10 @@
       </entry>
       <entry>
         <awt-text-attribute>width</awt-text-attribute>
+        <null/>
+      </entry>
+      <entry>
+        <awt-text-attribute>weight</awt-text-attribute>
         <null/>
       </entry>
       <entry>
@@ -6034,10 +6038,6 @@
       </entry>
       <entry>
         <awt-text-attribute>transform</awt-text-attribute>
-        <null/>
-      </entry>
-      <entry>
-        <awt-text-attribute>superscript</awt-text-attribute>
         <null/>
       </entry>
     </attributes>
